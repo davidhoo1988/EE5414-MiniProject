@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.2)  24 OCT 2014 19:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.2)  24 OCT 2014 20:43
 entering extended mode
 **report.tex
 ("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.tex"
@@ -244,11 +244,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \c@example=\count113
 \c@fact=\count114
 
-("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux"
-
-LaTeX Warning: Label `hw2' multiply defined.
-
-)
+("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
@@ -261,7 +257,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
- ("F:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+
+("F:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
 \scratchdimen=\dimen130
@@ -280,17 +277,17 @@ ead.
 ** ATTENTION: \authorblockA is deprecated (line 74). Use \IEEEauthorblockA inst
 ead.
 [0{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+lasy on input line 95.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 97.
 
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 95.
+LaTeX Font Info:    Try loading font information for U+msa on input line 97.
 
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 95.
+LaTeX Font Info:    Try loading font information for U+msb on input line 97.
 
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -298,35 +295,33 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <./figs/hw1.jpg, id=6, 542.025pt x 240.9pt>
 File: ./figs/hw1.jpg Graphic file (type jpg)
  <use ./figs/hw1.jpg>
-Package pdftex.def Info: ./figs/hw1.jpg used on input line 104.
+Package pdftex.def Info: ./figs/hw1.jpg used on input line 106.
 (pdftex.def)             Requested size: 361.34999pt x 160.60449pt.
 
 <./figs/hw2.jpg, id=7, 3276.24pt x 2457.18pt>
 File: ./figs/hw2.jpg Graphic file (type jpg)
  <use ./figs/hw2.jpg>
-Package pdftex.def Info: ./figs/hw2.jpg used on input line 110.
+Package pdftex.def Info: ./figs/hw2.jpg used on input line 112.
 (pdftex.def)             Requested size: 361.34999pt x 271.003pt.
  [1] [2 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/hw1.jpg> <E:/Dropbox/L
 aTaX files/EE5414 Mini Project/figs/hw2.jpg>] [3]
-("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux")
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux") ) 
 Here is how much of TeX's memory you used:
- 2915 strings out of 493921
- 41712 string characters out of 3144859
- 95393 words of memory out of 3000000
- 6173 multiletter control sequences out of 15000+200000
- 35370 words of font info for 80 fonts, out of 3000000 for 9000
+ 2924 strings out of 493921
+ 41772 string characters out of 3144859
+ 95475 words of memory out of 3000000
+ 6181 multiletter control sequences out of 15000+200000
+ 36506 words of font info for 81 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,6n,26p,1096b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
-{F:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<F:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (4 pages, 1954854 bytes).
+{F:/Program Files (x
+86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<F:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/urw/times/utmr8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on report.pdf (4 pages, 1967679 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
