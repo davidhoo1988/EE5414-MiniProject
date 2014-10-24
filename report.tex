@@ -90,21 +90,32 @@ City University of Hong Kong}\\
 \section{Introduction}\label{Intro}
 An embedded system is a computer system with a specific function and embedded in a mechanical or electrical system. Due to the limitation of processing resurces, lower power consumption, smaller size, lower cost, and simpler operating function are the main properties of embedded computers when compared with the general ones. Embedded systems are usually based on microcontrollers or microprocessors, such as MCU, ARM, DSP and FPGA. In this project, an ARM based circuit board, BeagleBone Black (BBB), is applied as the hardware development tool. An Ubuntu14.04 terminal system, which is known as a kind of open source Linux system, is loaded into the ARM7 chip as the software development platform. Using this specified embedded system, a series of functions are developed including: LED Test, Image/Video Capture, Web Server and SQL Server Establishment. 
 
-\section{Hardware Description}\label{HdDes}
+\section{Hardware Description and Implementation}\label{HdDes}
 BBB is a low-cost, community-supported hardware platform for embedded application development. BBB board mainly contains an ARM Cortex A8 series processor, a 512MB DDR3 RAM memory, an onboard 2GB MMC chip, and some other necessary peripherals. In this project, the BBB is developed with following cables and devices: \\
 $\bullet$ A MiniUSB Cable, which can be used to connect the board with PC and served as power source (limited to 500mA), network, and serial port for data transmission;\\
 $\bullet$ An external DC power supply with a minimum of 1A current output;\\
-$\bullet$ An USB Hub to expend the onboard USB Host port from one to four;\\
+$\bullet$ An USB Hub to expand the onboard USB Host port from one to four;\\
 $\bullet$ An USB portable 802.11N wireless adapter;\\
 $\bullet$ A Logitech HD Pro C920 Web Camera, which is a USB webcam and provides full HD 1080p video recording in wide-screen at a maximum rate of 30 frames pre second;\\
-$\bullet$ A mini SD card and its corresponding USB portable card reader.
-The detailed connection information of all hardware cables and devices is provided in both Fig. \ref{hw1}, for block diagram view, and Fig. \ref{hw2} for real view.
+$\bullet$ A mini SD card and its corresponding USB portable card reader.\\
+The detailed and connection information of all hardware cables and devices is provided in both Fig. \ref{hw1}, for block diagram view, and Fig. \ref{hw2} for real view.
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=5in]{./figs/hw1.jpg}
 	\caption{Block diagram of hardware description.}
 	\label{hw1}
 \end{figure}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=5in]{./figs/hw2.jpg}
+	\caption{Real view of hardware description.}
+	\label{hw2}
+\end{figure}
+
+Both of the figures indicate the hardware setup details. First, the BBB board is connected to a PC using the MiniUSB Cable. Via the cable, the BBB board could not only receives a 5V/500mA power supply provided by PC's USB port, but also accesses to the Internet by setting up Windows ICS, in addition, users could operate Linux instructions through specific Windows-based software clients. Second, in case of unexpected system shutdown issue caused by current exceeding (current supply using MiniUSB Cable is set at a maximum of 500mA), an external power supply is used. Third, an USB Hub is connected to the onboard host USB port for expanding the port from one to four. Finally, the Logitech C920 webcam is connected to the USB Hub with its attached USB cable, together with a USB portable wireless adapter. Note that in this project, the BBB board could have an alternative way to access the Internet: getting access to a Wifi or a Hotspot connection via the wireless adapter; and the system could have two different IP address for Ethernet and wireless connection, respectively.
+
+
+
 
 
 
