@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {I}Introduction}{1}
+\contentsline {section}{\numberline {II}Hardware Description and Implementation}{1}
+\contentsline {section}{\numberline {III}Software Description and Implementation}{3}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Operating System Installation and Configuration}{3}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Wireless Adapter Configuration}{4}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}Web Server Setup}{6}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-D}}LED Test}{6}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-E}}Web Camera Configuration and Functioning}{6}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-F}}SQL Server Setup and Application}{6}
+\contentsline {section}{\numberline {IV}Conclusions}{6}

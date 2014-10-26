@@ -54,6 +54,9 @@
 
 %\setcounter{page}{100}
 \usepackage{url}
+\usepackage{shorttoc}
+\usepackage{color}
+
 \begin{document}
 
 %\mainmatter
@@ -77,17 +80,8 @@ City University of Hong Kong}\\
 \end{titlepage}
 
 
-%\begin{abstract}
-%
-%\end{abstract}
-%
-%{\bf \small Key Words:}\\
-%Finite field multiplication, algorithm, hardware architecture, polynomial basis.
-
-
-%\newpage
-
-%\addtocounter{\thepage}{-1}
+\shorttableofcontents{Contents}{2}
+\clearpage
 
 \section{Introduction}\label{Intro}
 An embedded system is a computer system with a specific function and embedded in a mechanical or electrical system. Due to the limitation of processing resurces, lower power consumption, smaller size, lower cost, and simpler operating function are the main properties of embedded computers when compared with the general ones. Embedded systems are usually based on microcontrollers or microprocessors, such as MCU, ARM, DSP and FPGA. In this project, an ARM based circuit board, BeagleBone Black (BBB), is applied as the hardware development tool. An Ubuntu14.04 terminal system, which is known as a kind of open source Linux system, is loaded into the ARM7 chip as the software development platform. Using this specified embedded system, a series of functions are developed including: LED Test, Image/Video Capture, Web Server and SQL Server Establishment.
@@ -126,7 +120,7 @@ Both of the figures indicate the hardware setup details. First, the BBB board is
 	\subsection{Operating System Installation and Configuration}\label{Sys}
 	In our implementation, we install Ubuntu Trusty 14.04 on BBB. This image uses the Ubuntu 14.04 core filesystem from Ubuntu with the minimal meta package applied. The kernel is compiled from the mainline Linux kernel git repository. The result is an easy-to-install and stable Linux image that works well with the BeagleBone Black boards.
 
-First, OS binaries ``ubuntu-trusty-14.04-rootfs-3.14.4.1-bone-armhf.com.tar.xz" should be downloaded from \textit{\url{http://www.armhf.com/boards/beaglebone-black/}}; After uncompressing this file, we can get the Ubuntu Trusty 14.04 image as shown in Fig. \ref{osimage}. Next, this image should be burn into a microSD card such that we can install Ubuntu 14.04 onto BeagleBone Black. One way of doing this task is by utilizing Win32DiskImager, which is a powerful tool automatically creating a OS boot disk and available at \textit{\url{http://sourceforge.net/projects/win32diskimager/files/latest/download}}. In Fig. , Win32DiskImager starts to write Ubuntu .img to the microSD card, as presented by `device' F:.
+First, OS binaries ``ubuntu-trusty-14.04-rootfs-3.14.4.1-bone-armhf.com.tar.xz" should be downloaded from \textcolor{blue}{\textit{\url{http://www.armhf.com/boards/beaglebone-black/}}}; After uncompressing this file, we can get the Ubuntu Trusty 14.04 image as shown in Fig. \ref{osimage}. Next, this image should be burn into a microSD card such that we can install Ubuntu 14.04 onto BeagleBone Black. One way of doing this task is by utilising Win32DiskImager, which is a powerful tool automatically creating a OS boot disk and available at \textcolor{blue}{\textit{\url{http://sourceforge.net/projects/win32diskimager/files/latest/download}}}. In Fig. , Win32DiskImager starts to write Ubuntu .img to the microSD card, as presented by `device' F:. To find more details on the OS installation, please refer to the getting started page on beaglebone official website \cite{startBB}. 
 
 \begin{figure}[htb]
 	\centering
@@ -151,10 +145,10 @@ First, OS binaries ``ubuntu-trusty-14.04-rootfs-3.14.4.1-bone-armhf.com.tar.xz" 
 When the microSD Card is now ready to boot, we insert it into BeagleBone Black board, hold down the USER/BOOT button (in our board, it is S3 button.) and apply power, either by the USB cable or 5V adapter. However, it is strongly recommended to plug the 5V adapter in all the time because power adapter can provide more stable voltage than USB cable and thus it is less likely to have unexpected problems caused by power cutoff or insufficient. 
 
 Keep holding down the button until  the bank of 4 LED's light up for a few seconds and now release the button.
-It will take anywhere from 30-45 minutes to flash the image onto the on-board chip. Once it's done, the bank of 4 LED's to the right of the Ethernet will all stay lit up at the same time. We can then power down your BeagleBone Black[]. One important thing worth mentioning is that after finishing this step, we do not need microSD card installation anymore --- you can plug it out and whenever you power the board again, Ubuntu is able to automatically boot from MMC, the inner storage component on chip.
+It will take anywhere from 30-45 minutes to flash the image onto the on-board chip. Once it's done, the bank of 4 LED's to the right of the Ethernet will all stay lit up at the same time. We can then power down your BeagleBone Black \cite{flashBB}. One important thing worth mentioning is that after finishing this step, we do not need microSD card installation anymore --- you can plug it out and whenever you power the board again, Ubuntu is able to automatically boot from MMC, the inner storage component on chip.
 	
 \subsection{Wireless Adapter Configuration}\label{Wireless}
-Once the OS is successfully set up on board, it becomes critical to have internet access --- We need to install extra system utilities or download third-party libraries to support this project. So in this section, we detail how to setup a WiFi connection for BeagleBone Black.
+Once the OS is successfully set up on board, it becomes critical to have Internet access --- We need to install extra system utilities or download third-party libraries to support this project. So in this section, we detail how to setup a WiFi connection for BeagleBone Black.
 
 To begin with, we must connect the components needed into BeagleBone: wireless network adapter, USB hub and miniUSB cable (See Fig.). The wireless network adapter is the key for Internet connectivity. Besides this adapter, a webcam is also required by this project but we only have one USB port for them.  We therefore use a USB hub to install both components. We also need a miniUSB cable to connect BeagleBone to the host PC such that we can remote control BeagleBone through host PC's keyboard. Or to be more precise, we start a SSH connection to BeagleBone through this cable.
   
@@ -175,7 +169,7 @@ To begin with, we must connect the components needed into BeagleBone: wireless n
      \caption{Essential components for WiFi connection}
      \end{figure}  
   
-To establish SSH connection, we must log on BeagleBone via SSH protocol and this could be done with the help of SSH tool. In fact, there are a variety of SSH GUI tools available for Windows. In this report, we take Secure Shell Client available on \textit{\url{http://mepopedia.com/forum/file.php?793,file=1103,filename=SSHSecureShellClient-3.2.9.exe,download=1}}  as an example because this tool integrates scp command that allows us to transfer files between the host PC and the BeagleBone freely.
+To establish SSH connection, we must log on BeagleBone via SSH protocol and this could be done with the help of SSH tool. In fact, there are a variety of SSH GUI tools available for Windows. In this report, we take Secure Shell Client available on \textcolor{blue}{\textit{\url{http://mepopedia.com/forum/file.php?793,file=1103,filename=SSHSecureShellClient-3.2.9.exe,download=1}}}  as an example because this tool integrates scp command that allows us to transfer files between the host PC and the BeagleBone freely.
 
 When the wireless network adapter is plug into BeagleBone and BeagleBone itself is also connected to one USB port on our host PC, we open the Secure Shell Client and start a SSH connection from PC to BeagleBone as shown in Fig. \ref{ssh}. Remember the default IP address for BeagleBone is 192.168.7.2 and the default user account is `ubuntu' with password "temppwd".
 \begin{figure}[htb]
@@ -192,21 +186,23 @@ When the wireless network adapter is plug into BeagleBone and BeagleBone itself 
      \caption{SSH log on via Secure Shell Client for Windows.}\label{ssh}
      \end{figure}
      
-Finally, we configure the WiFi setup by modifying the network configuration file located at /ect/network/interfaces. 
-In figure \ref{wifi} we present the changes that have been made marked in red box. The idea of the is to connect to CityU Campus Wifi network --- "Universities WiFi" with the student EID and password. For safety reason, the EID and password are wiped out and readers can use their own account to fill in.
-
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=5in]{./figs/wifi.PNG}
 	\caption{Modify /ect/network/interfaces to establish a WiFi connection to access the Internet.}
 	\label{wifi}
 \end{figure}
+     
+Finally, we configure the WiFi setup by modifying the network configuration file located at /ect/network/interfaces. 
+In figure \ref{wifi} we present the changes that have been made marked in red box. The idea of the is to connect to CityU Campus Wifi network --- "Universities WiFi" with the student EID and password. For safety reason, the EID and password are wiped out and readers can use their own account to fill in.
+
+
 
 To make the modifications into effect, we type in "ifconfig wlan0 down $\&\&$ ifconfig wlan0 up" from Secure Shell Client to restart the wirless adapter. Then we type in "ping www.google.com.hk" to test whether the WiFi connection is functioning. Fig. \ref{ping} shows that the network setup is correct with all 4 transmitted packets getting received.
 
 \begin{figure}[htb]
 	\centering
-	\includegraphics[width=4in]{./figs/ping.PNG}
+	\includegraphics[width=3.5in]{./figs/ping.PNG}
 	\caption{A successful ping to Google.}
 	\label{ping}
 \end{figure}
@@ -229,10 +225,8 @@ One last reminder is that we suggest to log in as `root' rather than `ubuntu'. T
 We would like to thank our colleague Sean Yang  for his kindly help with the WiFi setup on BBB board.
 
 
-%\begin{thebibliography}{1}
-%\item
-%\end{thebibliography}
-%\bibliographystyle{latex8} \bibliography{latex8}
+\bibliographystyle{plain}
+\bibliography{bibfile.bib}
 
 \end{document}
 
