@@ -1,51 +1,10 @@
-This is BibTeX, Version 0.99d (TeX Live 2013)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: report.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: report.aux
 The style file: plain.bst
-Database file #1: bibfile.bib.bib
+Database file #1: bibfile.bib
 Warning--to sort, need author, organization, or key in startBB
 Warning--to sort, need author, organization, or key in flashBB
+Warning--to sort, need author, organization, or key in molloy
 Warning--empty title in startBB
+Warning--empty title in molloy
 Warning--empty title in flashBB
-You've used 2 entries,
-            2118 wiz_defined-function locations,
-            505 strings with 4179 characters,
-and the built_in function-call counts, 314 in all, are:
-= -- 28
-> -- 2
-< -- 0
-+ -- 2
-- -- 0
-* -- 18
-:= -- 43
-add.period$ -- 4
-call.type$ -- 2
-change.case$ -- 4
-chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 16
-empty$ -- 39
-format.name$ -- 0
-if$ -- 69
-int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 0
-newline$ -- 11
-num.names$ -- 0
-pop$ -- 10
-preamble$ -- 1
-purify$ -- 4
-quote$ -- 0
-skip$ -- 12
-stack$ -- 0
-substring$ -- 10
-swap$ -- 0
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 8
-warning$ -- 4
-while$ -- 0
-width$ -- 3
-write$ -- 16
-(There were 4 warnings)
+(There were 6 warnings)
