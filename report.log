@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.25)  27 OCT 2014 11:42
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.25)  28 OCT 2014 10:04
 entering extended mode
 **report.tex
 (C:\Users\RSPC\Dropbox\EE5414-MiniProject\report.tex
@@ -359,68 +359,72 @@ File: ./figs/ssh1.PNG Graphic file (type png)
  <use ./figs/ssh1.PNG>
 <./figs/ssh2.PNG, id=36, 457.71pt x 381.67593pt>
 File: ./figs/ssh2.PNG Graphic file (type png)
- <use ./figs/ssh2.PNG>
-<./figs/wifi.PNG, id=37, 423.08063pt x 590.205pt>
+ <use ./figs/ssh2.PNG> [6 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/wifiad
+apter.JPG> <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/usbhub.JPG> <C:/Users
+/RSPC/Dropbox/EE5414-MiniProject/figs/miniusbcable.JPG> <C:/Users/RSPC/Dropbox/
+EE5414-MiniProject/figs/ssh1.PNG> <C:/Users/RSPC/Dropbox/EE5414-MiniProject/fig
+s/ssh2.PNG>]
+<./figs/wifi.PNG, id=43, 423.08063pt x 590.205pt>
 File: ./figs/wifi.PNG Graphic file (type png)
  <use ./figs/wifi.PNG>
-Overfull \hbox (4.6957pt too wide) in paragraph at lines 201--202
+Overfull \hbox (4.6957pt too wide) in paragraph at lines 203--204
 \OT1/ptm/m/n/12 from Se-cure Shel-l Clien-t to restart the wir-less adapter. Th
 en we type in "ping www.google.com.hk"
  []
 
-<./figs/ping.PNG, id=38, 460.72125pt x 383.18156pt>
+[7 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/wifi.PNG>]
+<./figs/ping.PNG, id=49, 460.72125pt x 383.18156pt>
 File: ./figs/ping.PNG Graphic file (type png)
  <use ./figs/ping.PNG>
-[6 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/wifiadapter.JPG> <C:/Users/RS
-PC/Dropbox/EE5414-MiniProject/figs/usbhub.JPG> <C:/Users/RSPC/Dropbox/EE5414-Mi
-niProject/figs/miniusbcable.JPG>]
-<./figs/webcam.PNG, id=44, 528.47438pt x 745.28438pt>
+<./figs/webcam4.PNG, id=50, 456.70625pt x 501.875pt>
+File: ./figs/webcam4.PNG Graphic file (type png)
+ <use ./figs/webcam4.PNG>
+[8 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/ping.PNG>]
+<./figs/webcam.PNG, id=55, 528.47438pt x 745.28438pt>
 File: ./figs/webcam.PNG Graphic file (type png)
  <use ./figs/webcam.PNG>
-<./figs/webcam2.PNG, id=45, 962.84718pt x 749.04843pt>
+<./figs/webcam2.PNG, id=56, 962.84718pt x 749.04843pt>
 File: ./figs/webcam2.PNG Graphic file (type png)
 
 <use ./figs/webcam2.PNG>
-<./figs/webcam3.PNG, id=46, 962.84718pt x 749.80125pt>
+<./figs/webcam3.PNG, id=57, 962.84718pt x 749.80125pt>
 File: ./figs/webcam3.PNG Graphic file (type png)
 
-<use ./figs/webcam3.PNG> [7 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/ssh1
-.PNG> <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/ssh2.PNG>]
-Overfull \hbox (0.6849pt too wide) in paragraph at lines 243--246
+<use ./figs/webcam3.PNG> [9 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/webc
+am4.PNG> <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/webcam.PNG> <C:/Users/R
+SPC/Dropbox/EE5414-MiniProject/figs/webcam2.PNG>]
+Overfull \hbox (0.6849pt too wide) in paragraph at lines 253--256
 \OT1/ptm/m/it/12 beaglebone-[]video-[]capture-[]and-[]image-[]processing-[]on-[
 ]embedded-[]linux-[]using-[]opencv/$[] \OT1/ptm/m/n/12 for more in-
  []
 
-(C:\Users\RSPC\Dropbox\EE5414-MiniProject\report.bbl [8 <C:/Users/RSPC/Dropbox/
-EE5414-MiniProject/figs/wifi.PNG>]
-Overfull \vbox (27.66098pt too high) has occurred while \output is active []
-
-
-[9 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/ping.PNG> <C:/Users/RSPC/Drop
-box/EE5414-MiniProject/figs/webcam.PNG> <C:/Users/RSPC/Dropbox/EE5414-MiniProje
-ct/figs/webcam2.PNG>]) [10 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/webca
-m3.PNG>] (C:\Users\RSPC\Dropbox\EE5414-MiniProject\report.aux)
+(C:\Users\RSPC\Dropbox\EE5414-MiniProject\report.bbl [10 <C:/Users/RSPC/Dropbox
+/EE5414-MiniProject/figs/webcam3.PNG>]
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no ® in font ptmr7t!
+) [11]
+(C:\Users\RSPC\Dropbox\EE5414-MiniProject\report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3145 strings out of 495362
- 45051 string characters out of 3182903
- 96411 words of memory out of 3000000
- 6230 multiletter control sequences out of 15000+200000
+ 3152 strings out of 495362
+ 45171 string characters out of 3182903
+ 96426 words of memory out of 3000000
+ 6236 multiletter control sequences out of 15000+200000
  40015 words of font info for 93 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 26i,8n,24p,1096b,326s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 26i,7n,24p,1096b,326s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/Progr
 am Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
  Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86
 )/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/CTEX/MiK
 TeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (11 pages, 8256631 bytes).
+Output written on report.pdf (12 pages, 8336528 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

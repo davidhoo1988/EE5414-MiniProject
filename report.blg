@@ -4,7 +4,9 @@ Database file #1: bibfile.bib
 Warning--to sort, need author, organization, or key in startBB
 Warning--to sort, need author, organization, or key in flashBB
 Warning--to sort, need author, organization, or key in molloy
+Warning--to sort, need author, organization, or key in logicam
+Warning--empty title in logicam
 Warning--empty title in startBB
 Warning--empty title in molloy
 Warning--empty title in flashBB
-(There were 6 warnings)
+(There were 8 warnings)
