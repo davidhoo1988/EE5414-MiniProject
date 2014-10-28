@@ -1,20 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.2)  28 OCT 2014 16:42
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.25)  28 OCT 2014 17:58
 entering extended mode
 **report.tex
-("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\ieeetran\IEEEtran.cls"
-Document Class: IEEEtran 2012/12/27 V1.8 by Michael Shell
+(C:\Users\RSPC\Dropbox\EE5414-MiniProject\report.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for loaded.
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\ieeetran\IEEEtran.cls"
+Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
 \@IEEEtrantmpdimenA=\dimen102
@@ -22,9 +13,9 @@ Document Class: IEEEtran 2012/12/27 V1.8 by Michael Shell
 \@IEEEtrantmpcountA=\count79
 \@IEEEtrantmpcountB=\count80
 \@IEEEtrantmptoksA=\toks14
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 368.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 366.
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -35,41 +26,41 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \CLASSINFOnormalsizeunitybaselineskip=\dimen106
 \IEEEnormaljot=\dimen107
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <22> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <22> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
 \IEEEilabelindentA=\dimen108
 \IEEEilabelindentB=\dimen109
 \IEEEilabelindent=\dimen110
@@ -90,72 +81,71 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \c@table=\count87
 \@IEEEeqnnumcols=\count88
 \@IEEEeqncolcnt=\count89
-\@IEEEsubeqnnumrollback=\count90
 \@IEEEtmpitemindent=\dimen116
-\c@IEEEbiography=\count91
+\c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
-) ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+) ("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen117
 )
 \pmbraise@=\dimen118
 )
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2013/01/14 v2.14 AMS math features
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 )
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count92
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count93
-\leftroot@=\count94
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count95
-\DOTSCASE@=\count96
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
 \big@size=\dimen119
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count97
-\c@MaxMatrixCols=\count98
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
 \dotsspace@=\muskip10
-\c@parentequation=\count99
-\dspbrk@lvl=\count100
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
 \tag@help=\toks17
-\row@=\count101
-\column@=\count102
-\maxfields@=\count103
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
 \andhelp@=\toks18
 \eqnshift@=\dimen120
 \alignsep@=\dimen121
@@ -167,59 +157,52 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \multlinegap=\skip45
 \multlinetaggap=\skip46
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
 )
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen126
 )
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\listings\listings.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-\lst@mode=\count104
+\lst@mode=\count103
 \lst@gtempboxa=\box29
 \lst@token=\toks22
-\lst@length=\count105
+\lst@length=\count104
 \lst@currlwidth=\dimen127
-\lst@column=\count106
-\lst@pos=\count107
+\lst@column=\count105
+\lst@pos=\count106
 \lst@lostspace=\dimen128
 \lst@width=\dimen129
-\lst@newlines=\count108
-\lst@lineno=\count109
+\lst@newlines=\count107
+\lst@lineno=\count108
 \lst@maxwidth=\dimen130
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
-\c@lstnumber=\count110
-\lst@skipnumbers=\count111
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count109
+\lst@skipnumbers=\count110
 \lst@framebox=\box30
 )
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
-File: listings.cfg 2014/03/04 1.5c listings configuration
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\listings\listings.cfg"
+File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
-Package: listings 2014/03/04 1.5c (Carsten Heinz)
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("F:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("F:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count112
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2010/11/26 v0.05c Graphics/color for pdfTeX
+\Gread@gobject=\count111
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
@@ -231,49 +214,49 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\tools\longtable.sty"
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip47
 \LTright=\skip48
 \LTpre=\skip49
 \LTpost=\skip50
-\LTchunksize=\count113
+\LTchunksize=\count112
 \LTcapwidth=\dimen131
 \LT@head=\box31
 \LT@firsthead=\box32
 \LT@foot=\box33
 \LT@lastfoot=\box34
-\LT@cols=\count114
-\LT@rows=\count115
-\c@LT@tables=\count116
-\c@LT@chunks=\count117
+\LT@cols=\count113
+\LT@rows=\count114
+\c@LT@tables=\count115
+\c@LT@chunks=\count116
 \LT@p@ftn=\toks23
 )
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\psnfss\pifont.sty"
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\psnfss\upzd.fd"
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\psnfss\upsy.fd"
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\psnfss\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
@@ -281,7 +264,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen132
 \Gin@req@width=\dimen133
 )
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\subfigure\subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip51
 \subfigcapskip=\skip52
@@ -289,271 +272,199 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigbottomskip=\skip53
 \subfigcapmargin=\dimen135
 \subfiglabelskip=\skip54
-\c@subfigure=\count118
-\c@lofdepth=\count119
-\c@subtable=\count120
-\c@lotdepth=\count121
+\c@subfigure=\count117
+\c@lofdepth=\count118
+\c@subtable=\count119
+\c@lotdepth=\count120
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\subfigure\subfigure.cfg")
 \subfig@top=\skip55
 \subfig@bottom=\skip56
 )
-\c@theorem=\count122
-\c@algorithm=\count123
-\c@lemma=\count124
-\c@example=\count125
-\c@fact=\count126
+\c@theorem=\count121
+\c@algorithm=\count122
+\c@lemma=\count123
+\c@example=\count124
+\c@fact=\count125
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip11
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\shorttoc\shorttoc.sty"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\shorttoc\shorttoc.sty"
 Package: shorttoc 2002/08/20 v1.3 Short table of contents (JPFD)
 )
-("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-\c@lstlisting=\count127
+(C:\Users\RSPC\Dropbox\EE5414-MiniProject\report.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+\c@lstlisting=\count126
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count128
+\scratchcounter=\count127
 \scratchdimen=\dimen136
 \scratchbox=\box35
-\nofMPsegments=\count129
-\nofMParguments=\count130
+\nofMPsegments=\count128
+\nofMParguments=\count129
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count131
+\MPscratchCnt=\count130
 \MPscratchDim=\dimen137
-\MPnumerator=\count132
-\makeMPintoPDFobject=\count133
+\MPnumerator=\count131
 \everyMPtoPDFconversion=\toks25
 )
-** ATTENTION: \authorblockN is deprecated (line 91). Use \IEEEauthorblockN inst
+** ATTENTION: \authorblockN is deprecated (line 95). Use \IEEEauthorblockN inst
 ead.
-** ATTENTION: \authorblockA is deprecated (line 91). Use \IEEEauthorblockA inst
+** ATTENTION: \authorblockA is deprecated (line 95). Use \IEEEauthorblockA inst
 ead.
-[0{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.toc"
+[0{C:/Program Files (x86)/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{U
+GBK.sfd}}] (C:\Users\RSPC\Dropbox\EE5414-MiniProject\report.toc
 LaTeX Font Info:    Try loading font information for U+lasy on input line 4.
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )) [1]
 <./figs/hw1.jpg, id=10, 542.025pt x 240.9pt>
 File: ./figs/hw1.jpg Graphic file (type jpg)
  <use ./figs/hw1.jpg>
-Package pdftex.def Info: ./figs/hw1.jpg used on input line 114.
-(pdftex.def)             Requested size: 289.07999pt x 128.48506pt.
-
 <./figs/hw2.jpg, id=11, 3276.24pt x 2457.18pt>
 File: ./figs/hw2.jpg Graphic file (type jpg)
- <use ./figs/hw2.jpg>
-Package pdftex.def Info: ./figs/hw2.jpg used on input line 120.
-(pdftex.def)             Requested size: 289.07999pt x 216.78741pt.
- [2
+ <use ./figs/hw2.jpg> [2
 
 ]
-[3 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/hw1.jpg> <E:/Dropbox/LaTaX 
-files/EE5414 Mini Project/figs/hw2.jpg>]
+[3 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/hw1.jpg> <C:/Users/RSPC/Dropb
+ox/EE5414-MiniProject/figs/hw2.jpg>]
 <./figs/sw1.jpg, id=19, 557.83406pt x 421.575pt>
 File: ./figs/sw1.jpg Graphic file (type jpg)
- <use ./figs/sw1.jpg>
-Package pdftex.def Info: ./figs/sw1.jpg used on input line 133.
-(pdftex.def)             Requested size: 433.62pt x 327.70787pt.
- [4 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/sw1.jpg>]
+ <use ./figs/sw1.jpg> [4 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/sw1.jpg
+>]
 <./figs/osimage.PNG, id=24, 643.6547pt x 272.51813pt>
 File: ./figs/osimage.PNG Graphic file (type png)
  <use ./figs/osimage.PNG>
-Package pdftex.def Info: ./figs/osimage.PNG used on input line 147.
-(pdftex.def)             Requested size: 289.07999pt x 122.39915pt.
-
 <./figs/microsd.JPG, id=26, 3276.24pt x 2457.18pt>
 File: ./figs/microsd.JPG Graphic file (type jpg)
  <use ./figs/microsd.JPG>
-Package pdftex.def Info: ./figs/microsd.JPG used on input line 157.
-(pdftex.def)             Requested size: 144.54pt x 108.3937pt.
-
 <./figs/win32diskimager.PNG, id=27, 344.03531pt x 232.61906pt>
 File: ./figs/win32diskimager.PNG Graphic file (type png)
 
-<use ./figs/win32diskimager.PNG>
-Package pdftex.def Info: ./figs/win32diskimager.PNG used on input line 161.
-(pdftex.def)             Requested size: 180.67499pt x 122.16232pt.
- [5 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/osimage.PNG> <E:/Dropbox/L
-aTaX files/EE5414 Mini Project/figs/microsd.JPG> <E:/Dropbox/LaTaX files/EE5414
- Mini Project/figs/win32diskimager.PNG>]
+<use ./figs/win32diskimager.PNG> [5 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/f
+igs/osimage.PNG> <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/microsd.JPG> <C
+:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/win32diskimager.PNG>]
 <./figs/wifiadapter.JPG, id=33, 3276.24pt x 2457.18pt>
 File: ./figs/wifiadapter.JPG Graphic file (type jpg)
 
-<use ./figs/wifiadapter.JPG>
-Package pdftex.def Info: ./figs/wifiadapter.JPG used on input line 180.
-(pdftex.def)             Requested size: 144.54pt x 108.3937pt.
- <./figs/usbhub.JPG, id=34, 3276.24pt x 2457.18pt>
+<use ./figs/wifiadapter.JPG> <./figs/usbhub.JPG, id=34, 3276.24pt x 2457.18pt>
 File: ./figs/usbhub.JPG Graphic file (type jpg)
 
 <use ./figs/usbhub.JPG>
-Package pdftex.def Info: ./figs/usbhub.JPG used on input line 184.
-(pdftex.def)             Requested size: 144.54pt x 108.3937pt.
-
 <./figs/miniusbcable.JPG, id=35, 3276.24pt x 2457.18pt>
 File: ./figs/miniusbcable.JPG Graphic file (type jpg)
 
-<use ./figs/miniusbcable.JPG>
-Package pdftex.def Info: ./figs/miniusbcable.JPG used on input line 188.
-(pdftex.def)             Requested size: 144.54pt x 108.3937pt.
- [6]
+<use ./figs/miniusbcable.JPG> [6]
 <./figs/ssh1.PNG, id=40, 453.94594pt x 384.6872pt>
 File: ./figs/ssh1.PNG Graphic file (type png)
  <use ./figs/ssh1.PNG>
-Package pdftex.def Info: ./figs/ssh1.PNG used on input line 205.
-(pdftex.def)             Requested size: 180.67499pt x 153.10907pt.
-
 <./figs/ssh2.PNG, id=41, 457.71pt x 381.67593pt>
 File: ./figs/ssh2.PNG Graphic file (type png)
- <use ./figs/ssh2.PNG>
-Package pdftex.def Info: ./figs/ssh2.PNG used on input line 209.
-(pdftex.def)             Requested size: 180.67499pt x 150.65842pt.
- [7 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/wifiadapter.JPG> <E:/Dropb
-ox/LaTaX files/EE5414 Mini Project/figs/usbhub.JPG> <E:/Dropbox/LaTaX files/EE5
-414 Mini Project/figs/miniusbcable.JPG> <E:/Dropbox/LaTaX files/EE5414 Mini Pro
-ject/figs/ssh1.PNG> <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/ssh2.PNG>]
+ <use ./figs/ssh2.PNG> [7 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/wifiad
+apter.JPG> <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/usbhub.JPG> <C:/Users
+/RSPC/Dropbox/EE5414-MiniProject/figs/miniusbcable.JPG> <C:/Users/RSPC/Dropbox/
+EE5414-MiniProject/figs/ssh1.PNG> <C:/Users/RSPC/Dropbox/EE5414-MiniProject/fig
+s/ssh2.PNG>]
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 224.
 
-<./figs/wifi.PNG, id=47, 423.08063pt x 590.205pt>
-File: ./figs/wifi.PNG Graphic file (type png)
- <use ./figs/wifi.PNG>
-Package pdftex.def Info: ./figs/wifi.PNG used on input line 220.
-(pdftex.def)             Requested size: 289.07999pt x 403.27934pt.
 
-[8 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/wifi.PNG>]
-<./figs/ping.PNG, id=52, 460.72125pt x 383.18156pt>
+("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+<./figs/ping.PNG, id=47, 460.72125pt x 383.18156pt>
 File: ./figs/ping.PNG Graphic file (type png)
  <use ./figs/ping.PNG>
-Package pdftex.def Info: ./figs/ping.PNG used on input line 234.
-(pdftex.def)             Requested size: 361.34999pt x 300.53506pt.
-
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2014/03/04 1.5c listings language file
-)
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2014/03/04 1.5c listings language file
-) [9 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/ping.PNG>]
-<./figs/mainpage.jpg, id=59, 946.28531pt x 626.34pt>
+[8] [9 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/ping.PNG>]
+<./figs/mainpage.jpg, id=58, 946.28531pt x 626.34pt>
 File: ./figs/mainpage.jpg Graphic file (type jpg)
  <use ./figs/mainpage.jpg>
-Package pdftex.def Info: ./figs/mainpage.jpg used on input line 264.
-(pdftex.def)             Requested size: 433.62pt x 287.0017pt.
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 272.
-
-
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlptm.fd"
-File: omlptm.fd 
-)
-LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 272.
- [10] [11 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/mainpage.jpg>]
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2014/03/04 1.5c listings language file
-)
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
-File: lstlang2.sty 2014/03/04 1.5c listings language file
-) [12]
-<./figs/LED1.jpg, id=70, 1137.4997pt x 626.34pt>
+[10 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/mainpage.jpg>]
+<./figs/LED1.jpg, id=62, 1137.4997pt x 626.34pt>
 File: ./figs/LED1.jpg Graphic file (type jpg)
  <use ./figs/LED1.jpg>
-Package pdftex.def Info: ./figs/LED1.jpg used on input line 316.
-(pdftex.def)             Requested size: 361.34999pt x 198.97064pt.
-
-<./figs/LED2.jpg, id=71, 292.09125pt x 326.72063pt>
+<./figs/LED2.jpg, id=63, 292.09125pt x 326.72063pt>
 File: ./figs/LED2.jpg Graphic file (type jpg)
  <use ./figs/LED2.jpg>
-Package pdftex.def Info: ./figs/LED2.jpg used on input line 319.
-(pdftex.def)             Requested size: 180.67499pt x 202.10104pt.
-
-<./figs/LED3.jpg, id=72, 286.06876pt x 316.18124pt>
+<./figs/LED3.jpg, id=64, 286.06876pt x 316.18124pt>
 File: ./figs/LED3.jpg Graphic file (type jpg)
  <use ./figs/LED3.jpg>
-Package pdftex.def Info: ./figs/LED3.jpg used on input line 322.
-(pdftex.def)             Requested size: 180.67499pt x 199.69698pt.
-
-[13 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/LED1.jpg> <E:/Dropbox/LaTa
-X files/EE5414 Mini Project/figs/LED2.jpg> <E:/Dropbox/LaTaX files/EE5414 Mini 
-Project/figs/LED3.jpg>] <./figs/webcam4.PNG, id=76, 456.70625pt x 501.875pt>
+[11] <./figs/webcam4.PNG, id=68, 456.70625pt x 501.875pt>
 File: ./figs/webcam4.PNG Graphic file (type png)
 
-<use ./figs/webcam4.PNG>
-Package pdftex.def Info: ./figs/webcam4.PNG used on input line 332.
-(pdftex.def)             Requested size: 158.99377pt x 174.71693pt.
- <./figs/webcam.PNG, id=77, 528.47438pt x 745.28438pt>
+<use ./figs/webcam4.PNG> [12 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/LED
+1.jpg> <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/LED2.jpg> <C:/Users/RSPC/
+Dropbox/EE5414-MiniProject/figs/LED3.jpg>]
+<./figs/webcam.PNG, id=73, 528.47438pt x 745.28438pt>
 File: ./figs/webcam.PNG Graphic file (type png)
-
-<use ./figs/webcam.PNG>
-Package pdftex.def Info: ./figs/webcam.PNG used on input line 346.
-(pdftex.def)             Requested size: 216.81pt x 305.75052pt.
- <./figs/webcam2.PNG, id=78, 962.84718pt x 749.04843pt>
+ <use ./figs/webcam.PNG>
+<./figs/webcam2.PNG, id=74, 962.84718pt x 749.04843pt>
 File: ./figs/webcam2.PNG Graphic file (type png)
 
 <use ./figs/webcam2.PNG>
-Package pdftex.def Info: ./figs/webcam2.PNG used on input line 350.
-(pdftex.def)             Requested size: 216.81pt x 168.66577pt.
-
-<./figs/webcam3.PNG, id=79, 962.84718pt x 749.80125pt>
+<./figs/webcam3.PNG, id=75, 962.84718pt x 749.80125pt>
 File: ./figs/webcam3.PNG Graphic file (type png)
 
-<use ./figs/webcam3.PNG>
-Package pdftex.def Info: ./figs/webcam3.PNG used on input line 358.
-(pdftex.def)             Requested size: 289.07999pt x 225.11372pt.
- [14 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/webcam4.PNG>] ("E:\Dropbo
-x\LaTaX files\EE5414 Mini Project\report.bbl" [15 <E:/Dropbox/LaTaX files/EE541
-4 Mini Project/figs/webcam.PNG> <E:/Dropbox/LaTaX files/EE5414 Mini Project/fig
-s/webcam2.PNG>]
+<use ./figs/webcam3.PNG> [13 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/web
+cam4.PNG>] (C:\Users\RSPC\Dropbox\EE5414-MiniProject\report.bbl
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no ® in font ptmr7t!
-) [16 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/webcam3.PNG>]
-("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux") ) 
+ [14 <C:/Users/RSPC/Dropbox/EE5414-MiniProject/figs/webcam.PNG> <C:/Users/RSPC/
+Dropbox/EE5414-MiniProject/figs/webcam2.PNG>]) [15 <C:/Users/RSPC/Dropbox/EE541
+4-MiniProject/figs/webcam3.PNG>] (C:\Users\RSPC\Dropbox\EE5414-MiniProject\repo
+rt.aux) ) 
 Here is how much of TeX's memory you used:
- 7020 strings out of 493921
- 106114 string characters out of 3144859
- 477064 words of memory out of 3000000
- 10195 multiletter control sequences out of 15000+200000
- 40015 words of font info for 93 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 32i,8n,51p,1096b,2658s stack positions out of 5000i,500n,10000p,200000b,50000s
-{F:/Program Files (x
-86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<F:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><F:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/urw/times/utmb8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw
-/times/utmr8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on report.pdf (17 pages, 9305030 bytes).
+ 5023 strings out of 495362
+ 70590 string characters out of 3182903
+ 245837 words of memory out of 3000000
+ 8079 multiletter control sequences out of 15000+200000
+ 40746 words of font info for 96 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 32i,8n,51p,1096b,686s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C
+:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
+/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
+rogram Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
+ogram Files (x86)/CTEX/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Fi
+les (x86)/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/
+CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/CTEX/MiKTe
+X/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (16 pages, 9283909 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

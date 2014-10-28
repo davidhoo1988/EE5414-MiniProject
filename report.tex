@@ -9,19 +9,23 @@
 \usepackage{amsbsy}
 \usepackage{amsmath}
 \usepackage{multirow}
-\usepackage{listings} 
+\usepackage{listings}
 \usepackage{xcolor}
-\lstset{ %numbers=left, 
-	%numberstyle= \tiny, 
-	keywordstyle=\color{blue},
-	commentstyle=\color[cmyk]{1,0,1,0}, %设置注释颜色
-	frame=single,
-	breaklines,
+\lstset{ %numbers=left,
+	%numberstyle= \tiny,
+            basicstyle=\ttfamily\scriptsize,
+           keywordstyle=\color{blue}\ttfamily,
+           stringstyle=\color{red}\ttfamily,
+           commentstyle=\color{green}\ttfamily,
+          breaklines=true,
+          showstringspaces=false,
+          keepspaces=false,
+	frame=shadowbox, 
 	extendedchars=false,
-	tabsize=4, %设置tab空格数
-	showspaces=false %不显示空格
-	%rulesepcolor= \color{ red!20!green!20!blue!20} 
-} 
+	tabsize=4,
+	showspaces=false
+	%rulesepcolor= \color{ red!20!green!20!blue!20}
+}
 %\usepackage{subeqnarray}
 %\usepackage[subnum]{cases}
 \usepackage{longtable}
@@ -209,21 +213,31 @@ When the wireless network adapter is plug into BBB and BBB itself is also connec
      }
      \caption{SSH log on via Secure Shell Client for Windows.}\label{ssh}
      \end{figure}
-     
+
 To establish SSH connection, we must log on BeagleBone via SSH protocol and this could be done with the help of SSH tool. In fact, there are a variety of SSH GUI tools available for Windows. In this report, we take Secure Shell Client available on \textcolor{blue}{\textit{\url{http://mepopedia.com/forum/file.php?793,file=1103,filename=SSHSecureShellClient-3.2.9.exe,download=1}}}  as an example because this tool integrates scp command that allows us to transfer files between the host PC and the BeagleBone freely.
 
 When the wireless network adapter is plug into BeagleBone and BeagleBone itself is also connected to one USB port on our host PC, we open the Secure Shell Client and start a SSH connection from PC to BeagleBone as shown in Fig. \ref{ssh}. Remember the default IP address for BeagleBone is 192.168.7.2 and the default user account is `ubuntu' with password "temppwd".
 
 
-\begin{figure}[htb]
-	\centering
-	\includegraphics[width=4in]{./figs/wifi.PNG}
-	\caption{Modify /ect/network/interfaces to establish a WiFi connection to access the Internet.}
-	\label{wifi}
-\end{figure}
 
-Finally, we configure the WiFi setup by modifying the network configuration file located at /ect/network/interfaces.
-In figure \ref{wifi} we present the changes that have been made marked in red box. The idea of the is to connect to CityU Campus WiFi network --- "Universities WiFi" with the student EID and password. For safety reason, the EID and password are wiped out and readers can use their own account to fill in.
+Finally, we configure the WiFi setup by adding the following commands in the network configuration file located at /ect/network/interfaces:
+\begin{lstlisting}[language={bash}]
+#WiFi Example
+auth wlan0
+iface wlan0 inet dhcp
+#WPA Enterprise setup
+wpa-driver wext
+wpa-ssid Universities WiFi
+wpa-ap-scan 1
+wpa-proto RSN
+wpa-pairwise CCMP TKIP
+wpa-group CCMP TKIP
+wpa-eap PEAP
+wpa-key-mgmt WPA-EAP
+wpa-identity yourEID@my.cityu.edu.hk
+wpa-password yourPASSWORD
+\end{lstlisting}
+The idea of the is to connect to CityU Campus WiFi network --- "Universities WiFi" with the student EID and password. For safety reason, the EID and password are wiped out and readers can use their own account to fill in.
 
 
 
@@ -231,7 +245,7 @@ To make the modifications into effect, we type in "ifconfig wlan0 down $\&\&$ if
 
 \begin{figure}[htb]
 	\centering
-	\includegraphics[width=5in]{./figs/ping.PNG}
+	\includegraphics[width=4in]{./figs/ping.PNG}
 	\caption{A successful ping to Google.}
 	\label{ping}
 \end{figure}
@@ -261,7 +275,7 @@ PHP5 is configured and can be used for Web server developments. Please refer to 
 After setting up the Web server, we could build our own main webpage by replacing the default $index.php$ file mentioned previously, with a modified one. Here, a CityU style webpage is designed and replaces the original one as the project main webpage, it can be accessed by typing either IP address of the board, see Fig.\ref{mainpage}. The template source code is provided by CityU of Hong Kong. All the sub pages' source code is stored under the path $/var/www/php/$, this indicates that visiting any sub websites, you should direct the browser to ``http://192.168.7.2/php/*source\ file\ name*".
 \begin{figure}[htb]
 	\centering
-	\includegraphics[width=6in]{./figs/mainpage.jpg}
+	\includegraphics[width=4in]{./figs/mainpage.jpg}
 	\caption{Project main webpage.}
 	\label{mainpage}
 \end{figure}
@@ -297,10 +311,10 @@ esac
 \end{lstlisting}
 Similarly, the shell script can be written to control all four LEDs. An example of the control command:
 \begin{lstlisting}[language={bash}]
-/var/www/LED/ledctl.sh on off on heartbeat 
+/var/www/LED/ledctl.sh on off on heartbeat
 \end{lstlisting}
 By calling this shell script in the $.php$ file,
-\begin{lstlisting}[language={PHP}]
+\begin{lstlisting}[language={bash}]
 <?php
 ...
 $cmd = `/bin/bash ../LED/ledctl.sh $status0 $status1 $status2 $status3`;
@@ -312,13 +326,13 @@ the website based LED test can be implemented. See Fig.\ref{LEDTest}: Fig.\ref{L
 	\centering
 	
 	\subfigure[]{
-		\includegraphics[width=5in]{./figs/LED1.jpg}\label{LEDTest1}		
+		\includegraphics[width=4.5in]{./figs/LED1.jpg}\label{LEDTest1}		
 	}
 	\subfigure[]{
-		\includegraphics[width=2.5in]{./figs/LED2.jpg}\label{LEDTest2}		
+		\includegraphics[width=2in]{./figs/LED2.jpg}\label{LEDTest2}		
 	}
 	\subfigure[]{
-		\includegraphics[width=2.5in]{./figs/LED3.jpg}\label{LEDTest3}		
+		\includegraphics[width=2in]{./figs/LED3.jpg}\label{LEDTest3}		
 	}
 	\caption{Web based LED test.}\label{LEDTest}
 \end{figure}
