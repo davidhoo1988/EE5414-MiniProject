@@ -2,10 +2,10 @@
 \contentsline {section}{\numberline {II}Hardware Description and Implementation}{2}
 \contentsline {section}{\numberline {III}Software Description and Implementation}{4}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Operating System Installation and Configuration}{4}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Wireless Adapter Configuration}{5}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}Web Server Setup}{7}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-D}}LED Test}{7}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-E}}Web Camera Configuration and Functioning}{7}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-F}}SQL Server Setup and Application}{9}
-\contentsline {section}{\numberline {IV}Conclusions}{9}
-\contentsline {section}{References}{10}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Wireless Adapter Configuration}{6}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}Web Server Setup}{9}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-D}}LED Test}{10}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-E}}Web Camera Configuration and Functioning}{12}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-F}}SQL Server Setup and Application}{14}
+\contentsline {section}{\numberline {IV}Conclusions}{14}
+\contentsline {section}{References}{14}
