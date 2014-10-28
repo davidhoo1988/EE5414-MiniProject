@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.2)  28 OCT 2014 16:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.2)  28 OCT 2014 18:42
 entering extended mode
 **report.tex
 ("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.tex"
@@ -527,19 +527,37 @@ File: ./figs/webcam3.PNG Graphic file (type png)
 <use ./figs/webcam3.PNG>
 Package pdftex.def Info: ./figs/webcam3.PNG used on input line 358.
 (pdftex.def)             Requested size: 289.07999pt x 225.11372pt.
- [14 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/webcam4.PNG>] ("E:\Dropbo
-x\LaTaX files\EE5414 Mini Project\report.bbl" [15 <E:/Dropbox/LaTaX files/EE541
-4 Mini Project/figs/webcam.PNG> <E:/Dropbox/LaTaX files/EE5414 Mini Project/fig
-s/webcam2.PNG>]
+ [14 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/webcam4.PNG>] [15 <E:/Dro
+pbox/LaTaX files/EE5414 Mini Project/figs/webcam.PNG> <E:/Dropbox/LaTaX files/E
+E5414 Mini Project/figs/webcam2.PNG>]
+<./figs/sql1.jpg, id=89, 1181.91562pt x 619.56468pt>
+File: ./figs/sql1.jpg Graphic file (type jpg)
+ <use ./figs/sql1.jpg>
+Package pdftex.def Info: ./figs/sql1.jpg used on input line 392.
+(pdftex.def)             Requested size: 361.34999pt x 189.416pt.
+
+[16 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/webcam3.PNG>]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+
+<./figs/sql2.jpg, id=94, 703.12688pt x 593.96906pt>
+File: ./figs/sql2.jpg Graphic file (type jpg)
+ <use ./figs/sql2.jpg>
+Package pdftex.def Info: ./figs/sql2.jpg used on input line 404.
+(pdftex.def)             Requested size: 289.07999pt x 244.19957pt.
+
+("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.bbl"
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no ® in font ptmr7t!
-) [16 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/webcam3.PNG>]
+ [17 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/sql1.jpg>]) [18 <E:/Dropb
+ox/LaTaX files/EE5414 Mini Project/figs/sql2.jpg>]
 ("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux") ) 
 Here is how much of TeX's memory you used:
- 7020 strings out of 493921
- 106114 string characters out of 3144859
- 477064 words of memory out of 3000000
- 10195 multiletter control sequences out of 15000+200000
+ 7045 strings out of 493921
+ 106423 string characters out of 3144859
+ 477084 words of memory out of 3000000
+ 10218 multiletter control sequences out of 15000+200000
  40015 words of font info for 93 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  32i,8n,51p,1096b,2658s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -551,9 +569,9 @@ nts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/urw/times/utmb8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw
 /times/utmr8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on report.pdf (17 pages, 9305030 bytes).
+Output written on report.pdf (19 pages, 10055429 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

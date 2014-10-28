@@ -96,7 +96,7 @@ City University of Hong Kong}\\
 \clearpage
 
 \section{Introduction}\label{Intro}
-An embedded system is a computer system with a specific function and embedded in a mechanical or electrical system. Due to the limitation of processing resurces, lower power consumption, smaller size, lower cost, and simpler operating function are the main properties of embedded computers when compared with the general ones. Embedded systems are usually based on microcontrollers or microprocessors, such as MCU, ARM, DSP and FPGA. In this project, an ARM based circuit board, BeagleBone Black (BBB), is applied as the hardware development tool. An Ubuntu14.04 terminal system, which is known as a kind of open source Linux system, is loaded into the ARM7 chip as the software development platform. Using this specified embedded system, a series of functions are developed including: LED Test, Image/Video Capture, Web Server and SQL Server Establishment.
+An embedded system is a computer system with a specific function and embedded in a mechanical or electrical system. Due to the limitation of processing resurces, lower power consumption, smaller size, lower cost, and simpler operating function are the main properties of embedded computers when compared with the general ones. Embedded systems are usually based on microcontrollers or microprocessors, such as MCU, ARM, DSP and FPGA. In this project, an ARM based circuit board, BeagleBone Black (BBB), is applied as the hardware development tool. An Ubuntu14.04 terminal system, which is known as a kind of open source Linux system, is loaded into the ARM chip as the software development platform. Using this specified embedded system, a series of functions are developed including: LED Test, Image/Video Capture, Web Server and SQL Server Establishment.
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
@@ -356,7 +356,7 @@ On top of this, OpenCV is pre-installed by default on our Ubuntu Trusty 14.04 op
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=4in]{./figs/webcam3.PNG}
-	\caption{Demonstrate for the webcam controller}
+	\caption{Demonstrate for the webcam controller.}
 	\label{webcamdemo}
 \end{figure}
 
@@ -370,9 +370,45 @@ The details about the implementation of photographing and video capturing is int
 
 
 \subsection{SQL Server Setup and Application}\label{Sql}
+First installing the MySQL packages , and getting MySQL support in PHP:
+\begin{lstlisting}[language={bash}]
+apt-get install mysql-server mysql-client php5-mysql
+\end{lstlisting}
+Then restart the Apache service:
+\begin{lstlisting}[language={bash}]
+/etc/init.d/apache2 restart
+\end{lstlisting}
+phpMyAdmin is a web interface through which the MySQL databases can be easily managed: 
+\begin{lstlisting}[language={bash}]
+apt-get install phpmyadmin
+\end{lstlisting}
+A link must be established between phpMyAdmin and Apache:
+\begin{lstlisting}[language={bash}]
+ln -s /usr/share/phpmyadmin /var/www
+\end{lstlisting}
+Finally, by tying ``http://192.168.7.2/phpmyadmin" in the browser, and login with the username and password, the MySQL databases can be accessed with a graphical interface (See Fig.\ref{sql1}). Through which we could add, delete, set and insert data into databases.
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=5in]{./figs/sql1.jpg}
+	\caption{phpMyAdmin interface.}
+	\label{sql1}
+\end{figure}
 
-	
+In this project, the main idea we use to insert captured videos and images into the database TempDB is: first, three $.cpp$ files are written, in which some mysql based functions are included in order to login to MySQL and insert specified file (video, image, edge) into the right table of database TempDB; then compile this files using g++, taking $video.cpp$ as an example:
+\begin{lstlisting}[language={bash}]
+g++ video.cpp -o video -I/usr/include/mysql –lmysqlclient
+\end{lstlisting}
+Finally, calling all these three compiled files in $webcamctl.php$, so that the captured videos and images can be stored into the specified tables in TempDB with a corresponding timestamps. (See Fig.\ref{sql2})
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=4in]{./figs/sql2.jpg}
+	\caption{Inserted data in the tables of TempDB, MySQL.}
+	\label{sql2}
+\end{figure}
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %	
 \section{Conclusions}\label{Con}
+In this project, we use BBB and embedded ARM-Linex as the hardware and software development tools, respectively. Implementing a series of functions including: Web server and SQL server setup and configuration; webpage based LED Test, Image/Video Capture and face detection; implementation of MySQL based data storage.
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %

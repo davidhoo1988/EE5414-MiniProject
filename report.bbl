@@ -7,7 +7,8 @@ Logitech® HD Pro Webcam C920,
 \bibitem{Apache}
 Feb, 2012.
 \newblock Falko Timme,
-  \url{http://www.howtoforge.com/installing-apache2-with-php5-and-mysql-support-on-ubuntu-12.04-lts-lamp}.
+  installing-apache2-with-php5-and-mysql-support-on-ubuntu-12.04-lts-lamp,\\
+  \url{http://www.howtoforge.com}.
 
 \bibitem{startBB}
 June, 2014.
@@ -16,7 +17,7 @@ June, 2014.
 
 \bibitem{molloy}
 June, 2014.
-\newblock derekmolloy.ie, \url{http://derekmolloy.ie/tag/beaglebone-black/}.
+\newblock derekmolloy.ie, \url{http://derekmolloy.ie/tag/beaglebone-black}.
 
 \bibitem{flashBB}
 May, 2013.
