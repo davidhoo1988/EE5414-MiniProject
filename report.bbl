@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{Apache}
+Feb, 2012.
+\newblock Falko Timme,
+  \url{http://www.howtoforge.com/installing-apache2-with-php5-and-mysql-support-on-ubuntu-12.04-lts-lamp}.
+
 \bibitem{startBB}
 June, 2014.
 \newblock BeagleBone getting started,
