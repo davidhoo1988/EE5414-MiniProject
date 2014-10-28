@@ -190,9 +190,12 @@ To begin with, we must connect the components needed into BBB: wireless network 
      \label{WiFi}
      \end{figure}
 
+<<<<<<< HEAD
 To establish SSH connection, we must log on BBB via SSH protocol and this could be done with the help of SSH tool. In fact, there are a variety of SSH GUI tools available for Windows. In this report, we take Secure Shell Client available on \textcolor{blue}{\textit{\url{http://mepopedia.com/forum/file.php?793,file=1103,filename=SSHSecureShellClient-3.2.9.exe,download=1}}}  as an example because this tool integrates scp command that allows us to transfer files between the host PC and the BBB freely.
 
 When the wireless network adapter is plug into BBB and BBB itself is also connected to one USB port on our host PC, we open the Secure Shell Client and start a SSH connection from PC to BBB as shown in Fig.\ref{ssh}. Remember the default IP address for BBB is 192.168.7.2 and the default user account is `ubuntu' with password "temppwd".
+=======
+>>>>>>> 606042b8da77afba1cc4d4d88940eae2fd60a144
 \begin{figure}[htb]
 	\centering
 
@@ -206,6 +209,11 @@ When the wireless network adapter is plug into BBB and BBB itself is also connec
      }
      \caption{SSH log on via Secure Shell Client for Windows.}\label{ssh}
      \end{figure}
+     
+To establish SSH connection, we must log on BeagleBone via SSH protocol and this could be done with the help of SSH tool. In fact, there are a variety of SSH GUI tools available for Windows. In this report, we take Secure Shell Client available on \textcolor{blue}{\textit{\url{http://mepopedia.com/forum/file.php?793,file=1103,filename=SSHSecureShellClient-3.2.9.exe,download=1}}}  as an example because this tool integrates scp command that allows us to transfer files between the host PC and the BeagleBone freely.
+
+When the wireless network adapter is plug into BeagleBone and BeagleBone itself is also connected to one USB port on our host PC, we open the Secure Shell Client and start a SSH connection from PC to BeagleBone as shown in Fig. \ref{ssh}. Remember the default IP address for BeagleBone is 192.168.7.2 and the default user account is `ubuntu' with password "temppwd".
+
 
 \begin{figure}[htb]
 	\centering
@@ -316,7 +324,18 @@ the website based LED test can be implemented. See Fig.\ref{LEDTest}: Fig.\ref{L
 \end{figure}
 
 \subsection{Web Camera Configuration and Functioning}\label{Webcam}
-In this subsection, a webcam controller is implemented on our Apache web server. A webcamctl.php file is coded for basic functions like photographing, video capturing and face detection. The corresponding web page can be accessed by typing "192.168.7.2/webcamctl.php" in the address bar of your web broswer if BBB is connected to the host PC.  A snapshot of this .php file and its web page is shown in Fig.\ref{webcam}.
+In this subsection, a webcam controller is implemented on our Apache web server. A webcamctl.php file is coded for basic functions like photographing, video capturing and face detection. The corresponding web page can be accessed by typing "192.168.7.2/webcamctl.php" in the address bar of your web broswer if BBB is connected to the host PC. A snapshot of this .php file and its web page is shown in Fig.\ref{webcam}.
+
+The camera used in this project is Logitech HD Pro Webcam C920 \cite{logicam} (See Fig. \ref{logicam})which is  capable of delivering high-definition 1080p resolution and supports H.264 encoded compression to provide high quality video at low bit rates. As previously stated in section III-B, the camera is connected to BBB via the USB hub due to the limited number of USB ports on board.
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=2.2in]{./figs/webcam4.PNG}
+	\caption{Logitech HD Pro Webcam C920}
+	\label{logicam}
+\end{figure}
+
+In order to interact friendly with the web camber configuration, a webcam controller is implemented on our Apache web server. A webcamctl.php file is coded for basic functions like photographing, video capturing and face detection. The corresponding web page can be accessed by typing ``192.168.7.2/webcamctl.php" in the address bar of your web browser if BBB is connected to the host PC.  A snapshot of this $.php$ file and its web page is shown in Fig. \ref{webcam}.
+
 
 \begin{figure}[htb]
 	\centering
@@ -342,6 +361,12 @@ On top of this, OpenCV is pre-installed by default on our Ubuntu Trusty 14.04 op
 \end{figure}
 
 The details about the implementation of photographing and video capturing is introduced by Derek Molloy in his personal website \cite{molloy}. Please refer to \textcolor{blue}{\textit{\url{http://derekmolloy.ie/beaglebone/beaglebone-video-capture-and-image-processing-on-embedded-linux-using-opencv/}}} and \textcolor{blue}{\textit{\url{http://stackoverflow.com/questions/20757147/opencv-and-cdetect-face-in-image}}} for more details.
+%
+%
+%The details about the implementation of photographing and video capturing is introduced by Derek Molloy in his personal website \cite{molloy}.
+%Readers can refer to \textcolor{blue}{\textit{\url{http://derekmolloy.ie/beaglebone/beaglebone-video-capture-and-image-processing-on-embedded-linux-using-opencv/}}}
+%for more information; As for the face detection functionality, readers can also refer to \textcolor{blue}{\textit{\url{http://stackoverflow.com/questions/20757147/opencv-and-cdetect-face-in-image}}} for help.
+
 
 
 \subsection{SQL Server Setup and Application}\label{Sql}

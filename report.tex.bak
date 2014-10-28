@@ -318,7 +318,7 @@ City University of Hong Kong}\\
 \maketitle
 \end{titlepage}
 
-
+%\tableofcontents
 \shorttableofcontents{Contents}{2}
 \clearpage
 
@@ -363,7 +363,7 @@ First, OS binaries ``ubuntu-trusty-14.04-rootfs-3.14.4.1-bone-armhf.com.tar.xz" 
 
 \begin{figure}[htb]
 	\centering
-	\includegraphics[width=5in]{./figs/osimage.PNG}
+	\includegraphics[width=4in]{./figs/osimage.PNG}
 	\caption{Ubuntu Trusty 14.04 Image.}
 	\label{osimage}
 \end{figure}
@@ -375,7 +375,7 @@ First, OS binaries ``ubuntu-trusty-14.04-rootfs-3.14.4.1-bone-armhf.com.tar.xz" 
        \label{microsd}
      }
     \subfigure[Win32DiskImager]{
-       \includegraphics[width=3in]{./figs/win32diskimager.PNG}
+       \includegraphics[width=2.5in]{./figs/win32diskimager.PNG}
        \label{win32diskimager}
      }
      \caption{Creating A Ubuntu bootable image on microSD card.}
@@ -401,7 +401,7 @@ To begin with, we must connect the components needed into BeagleBone: wireless n
        \includegraphics[width=2in]{./figs/usbhub.JPG}
        \label{usbhub.PNG}
      }
-     \subfigure[MiniUSB cable]{
+     \subfigure[MiniUSB Cable]{
        \includegraphics[width=2in]{./figs/miniusbcable.JPG}
        \label{usbhub.PNG}
      }
@@ -415,11 +415,11 @@ When the wireless network adapter is plug into BeagleBone and BeagleBone itself 
 	\centering
 
     \subfigure{
-       \includegraphics[width=3in]{./figs/ssh1.PNG}
+       \includegraphics[width=2.5in]{./figs/ssh1.PNG}
 
      }
     \subfigure{
-       \includegraphics[width=3in]{./figs/ssh2.PNG}
+       \includegraphics[width=2.5in]{./figs/ssh2.PNG}
 
      }
      \caption{SSH log on via Secure Shell Client for Windows.}\label{ssh}
@@ -427,7 +427,7 @@ When the wireless network adapter is plug into BeagleBone and BeagleBone itself 
 
 \begin{figure}[htb]
 	\centering
-	\includegraphics[width=5in]{./figs/wifi.PNG}
+	\includegraphics[width=4in]{./figs/wifi.PNG}
 	\caption{Modify /ect/network/interfaces to establish a WiFi connection to access the Internet.}
 	\label{wifi}
 \end{figure}
@@ -441,7 +441,7 @@ To make the modifications into effect, we type in "ifconfig wlan0 down $\&\&$ if
 
 \begin{figure}[htb]
 	\centering
-	\includegraphics[width=3.5in]{./figs/ping.PNG}
+	\includegraphics[width=3in]{./figs/ping.PNG}
 	\caption{A successful ping to Google.}
 	\label{ping}
 \end{figure}
@@ -453,8 +453,38 @@ One last reminder is that we suggest to log in as `root' rather than `ubuntu'. T
 \subsection{LED Test}\label{Led}
 	
 \subsection{Web Camera Configuration and Functioning}\label{Webcam}
-In this subsection, a webcam controller is implemented on our Apache web server. First of all, a .php file is coded for basic functions like photographing, video capture and face detection.
+In this subsection, a webcam controller is implemented on our Apache web server. A webcamctl.php file is coded for basic functions like photographing, video capturing and face detection. The corresponding web page can be accessed by typing "192.168.7.2/webcamctl.php" in the address bar of your web broswer if BeagleBone is connected to the host PC.  A snapshot of this .php file and its web page is shown in Fig. \ref{webcam}.
+
+\begin{figure}[htb]
+	\centering
+
+    \subfigure[/var/www/php/webcamctl.php]{
+       \includegraphics[width=2.5in]{./figs/webcam.PNG}
+
+     }
+    \subfigure[web page for webcam controller]{
+       \includegraphics[width=3in]{./figs/webcam2.PNG}
+
+     }
+     \caption{PHP File Configuration and Web Page}\label{webcam}
+     \end{figure}
+
+It is suggested to use OpenCV library to achieve these functionalities because this library is cross-platform, which focuses mainly on real-time image processing and is free for use under the open source BSD license.
+On top of this, OpenCV is pre-installed by default on our Ubuntu Trusty 14.04 operating system and thus it is not necessary to take pains learning how to immigrate OpenCV into BeagleBone Black board. For photographing, it is optional to enable face detection function or not. Besides, it automatically detects the edge of this picture by using image edge detection method;  For video capturing, we also provide with 4 options for the capture duration: 4 seconds, 8 seconds, 12 seconds and 16 seconds.  We present below in Fig. \ref{webcamdemo} the demo of this work by detecting the author himself.
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=4in]{./figs/webcam3.PNG}
+	\caption{Demonstrate for the webcam controller}
+	\label{webcamdemo}
+\end{figure}
+
+The details about the implementation of photographing and video capturing is introduced by Derek Molloy in his personal website \cite{molloy}.
+Readers can refer to \textcolor{blue}{\textit{\url{http://derekmolloy.ie/beaglebone/beaglebone-video-capture-and-image-processing-on-embedded-linux-using-opencv/}}}
+for more information; As for the face detection functionality, readers can also refer to \textcolor{blue}{\textit{\url{http://stackoverflow.com/questions/20757147/opencv-and-cdetect-face-in-image}}} for help.
+
+
 \subsection{SQL Server Setup and Application}\label{Sql}
+
 	
 \section{Conclusions}\label{Con}
 
@@ -463,9 +493,8 @@ In this subsection, a webcam controller is implemented on our Apache web server.
 \section*{Acknowledgment}
 We would like to thank our colleague Sean Yang  for his kindly help with the WiFi setup on BeagleBone Black board.
 
-
 \bibliographystyle{plain}
-\bibliography{bibfile.bib}
+\bibliography{bibfile}
 
 \end{document}
 

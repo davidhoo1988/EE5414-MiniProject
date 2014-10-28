@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.2)  28 OCT 2014 16:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.2)  28 OCT 2014 16:42
 entering extended mode
 **report.tex
 ("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.tex"
@@ -430,29 +430,30 @@ Package pdftex.def Info: ./figs/miniusbcable.JPG used on input line 188.
 <./figs/ssh1.PNG, id=40, 453.94594pt x 384.6872pt>
 File: ./figs/ssh1.PNG Graphic file (type png)
  <use ./figs/ssh1.PNG>
-Package pdftex.def Info: ./figs/ssh1.PNG used on input line 202.
+Package pdftex.def Info: ./figs/ssh1.PNG used on input line 205.
 (pdftex.def)             Requested size: 180.67499pt x 153.10907pt.
 
 <./figs/ssh2.PNG, id=41, 457.71pt x 381.67593pt>
 File: ./figs/ssh2.PNG Graphic file (type png)
  <use ./figs/ssh2.PNG>
-Package pdftex.def Info: ./figs/ssh2.PNG used on input line 206.
+Package pdftex.def Info: ./figs/ssh2.PNG used on input line 209.
 (pdftex.def)             Requested size: 180.67499pt x 150.65842pt.
+ [7 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/wifiadapter.JPG> <E:/Dropb
+ox/LaTaX files/EE5414 Mini Project/figs/usbhub.JPG> <E:/Dropbox/LaTaX files/EE5
+414 Mini Project/figs/miniusbcable.JPG> <E:/Dropbox/LaTaX files/EE5414 Mini Pro
+ject/figs/ssh1.PNG> <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/ssh2.PNG>]
 
-<./figs/wifi.PNG, id=42, 423.08063pt x 590.205pt>
+<./figs/wifi.PNG, id=47, 423.08063pt x 590.205pt>
 File: ./figs/wifi.PNG Graphic file (type png)
  <use ./figs/wifi.PNG>
-Package pdftex.def Info: ./figs/wifi.PNG used on input line 212.
+Package pdftex.def Info: ./figs/wifi.PNG used on input line 220.
 (pdftex.def)             Requested size: 289.07999pt x 403.27934pt.
 
-[7 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/wifiadapter.JPG> <E:/Dropbo
-x/LaTaX files/EE5414 Mini Project/figs/usbhub.JPG> <E:/Dropbox/LaTaX files/EE54
-14 Mini Project/figs/miniusbcable.JPG> <E:/Dropbox/LaTaX files/EE5414 Mini Proj
-ect/figs/ssh1.PNG> <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/ssh2.PNG>]
-<./figs/ping.PNG, id=48, 460.72125pt x 383.18156pt>
+[8 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/wifi.PNG>]
+<./figs/ping.PNG, id=52, 460.72125pt x 383.18156pt>
 File: ./figs/ping.PNG Graphic file (type png)
  <use ./figs/ping.PNG>
-Package pdftex.def Info: ./figs/ping.PNG used on input line 226.
+Package pdftex.def Info: ./figs/ping.PNG used on input line 234.
 (pdftex.def)             Requested size: 361.34999pt x 300.53506pt.
 
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
@@ -460,93 +461,99 @@ File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/03/04 1.5c listings language file
-) [8 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/wifi.PNG>] [9 <E:/Dropbox
-/LaTaX files/EE5414 Mini Project/figs/ping.PNG>]
+) [9 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/ping.PNG>]
 <./figs/mainpage.jpg, id=59, 946.28531pt x 626.34pt>
 File: ./figs/mainpage.jpg Graphic file (type jpg)
  <use ./figs/mainpage.jpg>
-Package pdftex.def Info: ./figs/mainpage.jpg used on input line 256.
+Package pdftex.def Info: ./figs/mainpage.jpg used on input line 264.
 (pdftex.def)             Requested size: 433.62pt x 287.0017pt.
-
-[10 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/mainpage.jpg>]
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 264.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 272.
 
 
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlptm.fd"
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 264.
- [11]
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 272.
+ [10] [11 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/mainpage.jpg>]
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
 File: lstlang2.sty 2014/03/04 1.5c listings language file
-)
-<./figs/LED1.jpg, id=66, 1137.4997pt x 626.34pt>
+) [12]
+<./figs/LED1.jpg, id=70, 1137.4997pt x 626.34pt>
 File: ./figs/LED1.jpg Graphic file (type jpg)
  <use ./figs/LED1.jpg>
-Package pdftex.def Info: ./figs/LED1.jpg used on input line 308.
+Package pdftex.def Info: ./figs/LED1.jpg used on input line 316.
 (pdftex.def)             Requested size: 361.34999pt x 198.97064pt.
 
-<./figs/LED2.jpg, id=67, 292.09125pt x 326.72063pt>
+<./figs/LED2.jpg, id=71, 292.09125pt x 326.72063pt>
 File: ./figs/LED2.jpg Graphic file (type jpg)
  <use ./figs/LED2.jpg>
-Package pdftex.def Info: ./figs/LED2.jpg used on input line 311.
+Package pdftex.def Info: ./figs/LED2.jpg used on input line 319.
 (pdftex.def)             Requested size: 180.67499pt x 202.10104pt.
 
-<./figs/LED3.jpg, id=68, 286.06876pt x 316.18124pt>
+<./figs/LED3.jpg, id=72, 286.06876pt x 316.18124pt>
 File: ./figs/LED3.jpg Graphic file (type jpg)
  <use ./figs/LED3.jpg>
-Package pdftex.def Info: ./figs/LED3.jpg used on input line 314.
+Package pdftex.def Info: ./figs/LED3.jpg used on input line 322.
 (pdftex.def)             Requested size: 180.67499pt x 199.69698pt.
 
-<./figs/webcam.PNG, id=69, 528.47438pt x 745.28438pt>
-File: ./figs/webcam.PNG Graphic file (type png)
- <use ./figs/webcam.PNG>
-Package pdftex.def Info: ./figs/webcam.PNG used on input line 327.
-(pdftex.def)             Requested size: 216.81pt x 305.75052pt.
+[13 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/LED1.jpg> <E:/Dropbox/LaTa
+X files/EE5414 Mini Project/figs/LED2.jpg> <E:/Dropbox/LaTaX files/EE5414 Mini 
+Project/figs/LED3.jpg>] <./figs/webcam4.PNG, id=76, 456.70625pt x 501.875pt>
+File: ./figs/webcam4.PNG Graphic file (type png)
 
-<./figs/webcam2.PNG, id=70, 962.84718pt x 749.04843pt>
+<use ./figs/webcam4.PNG>
+Package pdftex.def Info: ./figs/webcam4.PNG used on input line 332.
+(pdftex.def)             Requested size: 158.99377pt x 174.71693pt.
+ <./figs/webcam.PNG, id=77, 528.47438pt x 745.28438pt>
+File: ./figs/webcam.PNG Graphic file (type png)
+
+<use ./figs/webcam.PNG>
+Package pdftex.def Info: ./figs/webcam.PNG used on input line 346.
+(pdftex.def)             Requested size: 216.81pt x 305.75052pt.
+ <./figs/webcam2.PNG, id=78, 962.84718pt x 749.04843pt>
 File: ./figs/webcam2.PNG Graphic file (type png)
 
 <use ./figs/webcam2.PNG>
-Package pdftex.def Info: ./figs/webcam2.PNG used on input line 331.
+Package pdftex.def Info: ./figs/webcam2.PNG used on input line 350.
 (pdftex.def)             Requested size: 216.81pt x 168.66577pt.
 
-<./figs/webcam3.PNG, id=71, 962.84718pt x 749.80125pt>
+<./figs/webcam3.PNG, id=79, 962.84718pt x 749.80125pt>
 File: ./figs/webcam3.PNG Graphic file (type png)
 
 <use ./figs/webcam3.PNG>
-Package pdftex.def Info: ./figs/webcam3.PNG used on input line 339.
+Package pdftex.def Info: ./figs/webcam3.PNG used on input line 358.
 (pdftex.def)             Requested size: 289.07999pt x 225.11372pt.
- [12] [13 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/LED1.jpg> <E:/Dropbo
-x/LaTaX files/EE5414 Mini Project/figs/LED2.jpg> <E:/Dropbox/LaTaX files/EE5414
- Mini Project/figs/LED3.jpg>]
-("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.bbl" [14 <E:/Dropbox/LaTaX 
-files/EE5414 Mini Project/figs/webcam.PNG> <E:/Dropbox/LaTaX files/EE5414 Mini 
-Project/figs/webcam2.PNG>]) [15 <E:/Dropbox/LaTaX files/EE5414 Mini Project/fig
-s/webcam3.PNG>] ("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux") ) 
+ [14 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/webcam4.PNG>] ("E:\Dropbo
+x\LaTaX files\EE5414 Mini Project\report.bbl" [15 <E:/Dropbox/LaTaX files/EE541
+4 Mini Project/figs/webcam.PNG> <E:/Dropbox/LaTaX files/EE5414 Mini Project/fig
+s/webcam2.PNG>]
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no ® in font ptmr7t!
+) [16 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/webcam3.PNG>]
+("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux") ) 
 Here is how much of TeX's memory you used:
- 7013 strings out of 493921
- 105994 string characters out of 3144859
- 461668 words of memory out of 3000000
- 10189 multiletter control sequences out of 15000+200000
+ 7020 strings out of 493921
+ 106114 string characters out of 3144859
+ 477064 words of memory out of 3000000
+ 10195 multiletter control sequences out of 15000+200000
  40015 words of font info for 93 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 32i,8n,51p,1096b,2364s stack positions out of 5000i,500n,10000p,200000b,50000s
-{F:/
-Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<F:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><F:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><F:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/urw/times/utmr8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on report.pdf (16 pages, 9213190 bytes).
+ 32i,8n,51p,1096b,2658s stack positions out of 5000i,500n,10000p,200000b,50000s
+{F:/Program Files (x
+86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<F:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><F:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/urw/times/utmb8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw
+/times/utmr8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on report.pdf (17 pages, 9305030 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
