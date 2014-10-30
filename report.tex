@@ -11,6 +11,7 @@
 \usepackage{multirow}
 \usepackage{listings}
 \usepackage{xcolor}
+%\usepackage{appendix}
 \lstset{ %numbers=left,
 	%numberstyle= \tiny,
 	basicstyle=\ttfamily\scriptsize,
@@ -96,7 +97,8 @@ City University of Hong Kong}\\
 \end{titlepage}
 
 %\tableofcontents
-\shorttableofcontents{Contents}{2}
+\tableofcontents
+\addcontentsline{toc}{section}{appendix}
 \clearpage
 
 \section{Introduction}\label{Intro}
@@ -282,13 +284,13 @@ After setting up the Web server, we could build our own main webpage by replacin
 \subsection{LED Test}\label{Led}
 The LED Test program is for testing the four LED lights located near the Ethernet port and the Reset Button. In general, each LED light has two configuration files: one controls the trigger mode:
 \begin{lstlisting}[language={bash}]
-echo none > /sys/class/leds/beaglebone:green:usr?/trigger
+echo none > /sys/class/leds/beaglebone:green:usr0/trigger
 \end{lstlisting}
 ``none" for passive mode and it can be changed to ``heartbeat" for blink mode; the other file controls the On/Off switch of the light:
 \begin{lstlisting}[language={bash}]
-echo 1 > /sys/class/leds/beaglebone:green:usr?/brightness
+echo 1 > /sys/class/leds/beaglebone:green:usr0/brightness
 \end{lstlisting}
-1 for light on, and 0 for light off. By default, some of the LEDs are used to display information to users about what is going on. So if the states those LEDs changes, they will be quickly overwritten. That is the reason why the trigger mode must be set before the stage of light changes in passive mode. And for blink mode, only the first command affects. Note that character ``$?$" in the above paths can be 0, 1, 2, and 3. Here gives the example of LED\_0 control shell script file.
+1 for light on, and 0 for light off. Some of the LEDs are set to a default trigger mode which could display information to users about what is going on. Thus, the trigger mode must be set to passive mode before the state of light changes. And for blink mode, only the first command affects. Note that character ``$?$" in the above paths can be 0, 1, 2, and 3. Here gives the example of LED\_0 control shell script file.
 \begin{lstlisting}[language={bash}]
 #!/bin/bash
 case "$1" in
@@ -411,7 +413,8 @@ Finally, by tying ``http://192.168.7.2/phpmyadmin" in the browser, and login wit
 	\label{sql2}
 \end{figure}
 
-In this project, the main idea we use to insert captured videos and images into the database TempDB is: first, three $.cpp$ files are written, in which some mysql based functions are included in order to login to MySQL and insert specified file (video, image, edge) into the right table of database TempDB; then compile this files using g++, taking $video.cpp$ as an example:
+In this project, the main idea we use to insert captured videos and images into the database TempDB is: first, three $.cpp$ files are written, in which some mysql based functions are included in order to login to MySQL and insert specified file (video, image, edge) into the right table of database TempDB (see Appendix \ref{AppendixA} as an example); then compile this files using g++, taking $video.cpp$ as an example:
+
 \begin{lstlisting}[language={bash}]
 g++ video.cpp -o video -I/usr/include/mysql mysqlclient
 \end{lstlisting}
@@ -425,10 +428,48 @@ In this project, we use BBB and embedded ARM-Linex as the hardware and software 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 \section*{Acknowledgment}
+\addcontentsline{toc}{section}{Acknowledgment}
 We would like to thank our colleague Sean Yang  for his kindly help with the WiFi setup on BBB board.
 
 \bibliographystyle{plain}
 \bibliography{bibfile}
+\clearpage
+
+\appendix
+	\subsection{An example of how to insert a file into a SQL database}\label{AppendixA}	
+	\begin{lstlisting}[language={c}]
+	#include <mysql.h>
+	#include <stdlib.h>
+	#include <stdio.h>
+	#include <string.h>
+	
+	void error_exit(MYSQL *conn){
+	fprintf(stderr, "%s\n", mysql_error(conn));
+	if (conn != NULL){
+	mysql_close(conn);
+	}
+	exit(1);
+	}
+	
+	int main(){
+	MYSQL *conn = mysql_init(NULL);
+	if(conn == NULL){
+	error_exit(conn);
+	}
+	
+	if (mysql_real_connect(conn, "localhost", "root", "temppwd", "TempDB", 0, NULL, 0) == NULL)	{
+	error_exit(conn);
+	}
+	
+	if (mysql_query(conn, "CREATE TABLE IF NOT EXISTS Capture_Video(id INT PRIMARY KEY AUTO_INCREMENT, TimeStamp DATETIME, movie LONGBLOB)")){
+	error_exit(conn);
+	}
+	
+	mysql_query(conn, "INSERT INTO Capture_Video(TimeStamp, movie) VALUES(NOW(), LOAD_FILE('/var/www/WebCam/output.mp4'))");
+	mysql_close(conn);
+	return 0;
+	}
+	\end{lstlisting}
 
 \end{document}
 
