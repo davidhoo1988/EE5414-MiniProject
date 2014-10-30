@@ -20,7 +20,7 @@
 	breaklines=true,
 	showstringspaces=false,
 	keepspaces=false,
-	frame=shadowbox, 
+	frame=shadowbox,
 	extendedchars=false,
 	tabsize=4,
 	showspaces=false
@@ -100,33 +100,36 @@ City University of Hong Kong}\\
 \clearpage
 
 \section{Introduction}\label{Intro}
-An embedded system is a computer system with a specific function and embedded in a mechanical or electrical system. Due to the limitation of processing resurces, less power consumption, smaller size, lower cost, and simpler operating function are the main properties of embedded computers when compared with the general ones. Embedded systems are usually based on microcontrollers or microprocessors, such as MCU, ARM, DSP and FPGA. In this project, an ARM based circuit board, BeagleBone Black (BBB), is applied as the hardware development tool. An Ubuntu14.04 terminal system, which is known as a version of open source Linux system, is loaded into the ARM chip as the software development platform. Using this specified embedded system, a series of functions are developed including: LED Test, Image/Video Capture, Web Server and SQL Server Establishment.
+An embedded system is a computer system with a specific function and embedded in a mechanical or electrical system. Due to the limitation of processing resources, lower power consumption, smaller size, lower cost, and simpler operating function are the main properties of embedded computers when compared with the general ones. Embedded systems are usually based on microcontrollers or microprocessors, such as MCU, ARM, DSP and FPGA. In this project, an ARM based circuit board, BeagleBone Black (BBB), is applied as the hardware development tool. Ubuntu Trusty 14.04, which is known as a version of open source Linux system, is loaded into the ARM chip as the software development platform. Using this specified embedded system, a series of functions are developed including: LED Test, Image/Video Capture, Web Server and SQL Server Establishment.
+
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 \section{Hardware Description and Implementation}\label{HdDes}
+
 BBB is a low-cost, community-supported hardware platform for embedded application development. BBB board mainly contains an ARM Cortex A8 series processor, a 512MB DDR3 RAM memory, an onboard 2GB MMC chip, with some other necessary peripherals. In this project, the BBB board is developed with following cables and devices: \\
+
 $\bullet$ A MiniUSB Cable, which can be used to connect the board with PC and served as power source (limited to 500mA), network, and serial port for data transmission;\\
 $\bullet$ An external DC power supply with 5V and a minimum of 1A current output;\\
 $\bullet$ An USB Hub to expand the onboard USB Host port from one to four;\\
 $\bullet$ An USB portable 802.11N wireless adapter;\\
-$\bullet$ A Logitech HD Pro C920 Web Camera, which is a USB webcam and provides full HD 1080p video recording in wide-screen at a maximum rate of 30 frames pre second;\\
+$\bullet$ A Logitech HD Pro C920 Web Camera, which is a USB webcam and provides full HD 1080p video recording in wide-screen at a maximum rate of 30 frames per second;\\
 $\bullet$ A mini SD card and its corresponding USB portable card reader.\\
 The detailed and connection information of all hardware cables and devices is provided in both Fig.\ref{hw1}, for block diagram view, and Fig.\ref{hw2} for real view.
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=4in]{./figs/hw1.jpg}
-	\caption{Block diagram of hardware description.}
+	\caption{Block Diagram of Hardware Description}
 	\label{hw1}
 \end{figure}
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=4in]{./figs/hw2.jpg}
-	\caption{Real view of hardware description.}
+	\caption{Real View of Hardware Description}
 	\label{hw2}
 \end{figure}
 
-Both of the figures indicate the hardware setup details. First, the BBB board is connected to a PC using the MiniUSB Cable. Via the cable, the BBB board could not only receives a 5V/500mA power supply provided by PC's USB port, but also accesses to the Internet by setting up Windows ICS, in addition, users could operate Linux instructions through specific Windows-based software clients. Second, in case of unexpected system shutdown issue caused by current exceeding (current supply using MiniUSB Cable is set at a maximum of 500mA), an external power supply is used. Third, an USB Hub is connected to the onboard host USB port for expanding the port from one to four. Finally, the Logitech C920 webcam is connected to the USB Hub with its attached USB cable, together with a USB portable wireless adapter. Note that in this project, the BBB board could have an alternative way to access the Internet: getting access to a WiFi or a Hotspot connection via the wireless adapter; and the system could have two different IP address for Ethernet and wireless connection, respectively.
+Both of the figures indicate the hardware setup details. First, the BBB board is connected to a PC using the MiniUSB Cable. Via the cable, the BBB board could not only receives a 5V/500mA power supply provided by PC's USB port, but also be accessible from a host PC and share the Internet connection by setting up Windows ICS \cite{windowsICS}, in addition, users could operate Linux instructions through specific Windows-based software clients. Second, in case of unexpected system shutdown issue caused by current exceeding (current supply using MiniUSB Cable is set at a maximum of 500mA), an external power supply is used. Third, a USB Hub is connected to the onboard host USB port for expanding the port from one to four. Finally, the Logitech C920 webcam is connected to the USB Hub with its attached USB cable, together with a USB portable wireless adapter. Note that in this project, system could have two different IP addresses for Ethernet and wireless connection, respectively, also the BBB board could have an alternative way to access the Internet: getting access to a WiFi or Hotspot connection via the wireless adapter.
 
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
@@ -134,28 +137,28 @@ Both of the figures indicate the hardware setup details. First, the BBB board is
 \section{Software Description and Implementation}\label{SfDes}
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=6in]{./figs/sw1.jpg}
-	\caption{Block diagram of software description.}
+	\includegraphics[width=5in]{./figs/sw1.jpg}
+	\caption{Block Diagram of Software Description}
 	\label{sw1}
 \end{figure}
 
 In this project, the software implementation includes installation, configuration as well as application of embedded OS, Web server, PHP, and MySQL; setup and website-based control of onboard LEDs and the C920 Web Camera. Fig.\ref{sw1} provides a block diagram of software description.
 
 	\subsection{Operating System Installation and Configuration}\label{Sys}
-	In our implementation, we install Ubuntu Trusty 14.04 on BBB. This image uses the Ubuntu 14.04 core filesystem from Ubuntu with the minimal meta package applied. The kernel is compiled from the mainline Linux kernel git repository. The result is an easy-to-install and stable Linux image that works well with the BBB boards.
+	In our implementation, we install Ubuntu Trusty 14.04 on BBB. This image uses the Ubuntu 14.04 core This results an easy-to-install and stable Linux image that works well with the BBB boards.
 
 First, OS binaries ``ubuntu-trusty-14.04-rootfs-3.14.4.1-bone-armhf.com.tar.xz" can be downloaded from \textcolor{blue}{\textit{\url{http://www.armhf.com/boards/beaglebone-black/}}}; After uncompressing this file, we can get the Ubuntu Trusty 14.04 image as shown in Fig.\ref{osimage}. Next, this image should be burn into a microSD card such that we can install Ubuntu 14.04 onto BBB. One way of doing this task is by utilising Win32DiskImager, which is a powerful tool automatically creating a OS boot disk and available at \textcolor{blue}{\textit{\url{http://sourceforge.net/projects/win32diskimager/files/latest/download}}}. In Fig.\ref{win32diskimager}, Win32DiskImager is starting to write Ubuntu.img to the microSD card, as presented by `device' F:. Please refer to the getting started page on the BeagleBone official website \cite{startBB} to find more details on the OS installation
 
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=4in]{./figs/osimage.PNG}
-	\caption{Ubuntu Trusty 14.04 Image.}
+	\caption{Ubuntu Trusty 14.04 Image}
 	\label{osimage}
 \end{figure}
 
 \begin{figure}[htb]
 	\centering
-    \subfigure[MicroSD card.]{
+    \subfigure[MicroSD Card]{
        \includegraphics[width=2in]{./figs/microsd.JPG}
        \label{microsd}
      }
@@ -163,7 +166,7 @@ First, OS binaries ``ubuntu-trusty-14.04-rootfs-3.14.4.1-bone-armhf.com.tar.xz" 
        \includegraphics[width=2.5in]{./figs/win32diskimager.PNG}
        \label{win32diskimager}
      }
-     \caption{Creating A Ubuntu bootable image on microSD card.}
+     \caption{Creating A Ubuntu bootable image on microSD card}
      \end{figure}
 
 When the microSD Card is now ready to boot, we insert it into BBB board, hold down the USER/BOOT button (in our board, it is S3 button.) and apply power, either by the USB cable or 5V adapter. However, it is strongly recommended to plug the 5V adapter in all the time because power adapter can provide more stable voltage than USB cable and thus it is less likely to have unexpected problems caused by power cutoff or insufficient.
@@ -194,12 +197,12 @@ To begin with, we must connect the components needed into BBB: wireless network 
      \label{WiFi}
      \end{figure}
 
-<<<<<<< HEAD
+
 To establish SSH connection, we must log on BBB via SSH protocol and this could be done with the help of SSH tool. In fact, there are a variety of SSH GUI tools available for Windows. In this report, we take Secure Shell Client available on \textcolor{blue}{\textit{\url{http://mepopedia.com/forum/file.php?793,file=1103,filename=SSHSecureShellClient-3.2.9.exe,download=1}}}  as an example because this tool integrates scp command that allows us to transfer files between the host PC and the BBB freely.
 
 When the wireless network adapter is plug into BBB and BBB itself is also connected to one USB port on our host PC, we open the Secure Shell Client and start a SSH connection from PC to BBB as shown in Fig.\ref{ssh}. Remember the default IP address for BBB is 192.168.7.2 and the default user account is `ubuntu' with password "temppwd".
-=======
->>>>>>> 606042b8da77afba1cc4d4d88940eae2fd60a144
+
+
 \begin{figure}[htb]
 	\centering
 
@@ -237,23 +240,29 @@ wpa-key-mgmt WPA-EAP
 wpa-identity yourEID@my.cityu.edu.hk
 wpa-password yourPASSWORD
 \end{lstlisting}
-The idea of the is to connect to CityU Campus WiFi network --- "Universities WiFi" with the student EID and password. For safety reason, the EID and password are wiped out and readers can use their own account to fill in.
+The idea of this setup is to connect to CityU Campus WiFi network --- "Universities WiFi" with the student EID and password. For safety reason, the EID and password are wiped out and readers can use their own account to fill in.
 
 
 
-To make the modifications into effect, we type in "ifconfig wlan0 down $\&\&$ ifconfig wlan0 up" from Secure Shell Client to restart the wirless adapter. Then we type in $ping www.google.com.hk$ to test whether the WiFi connection is functioning. Fig.\ref{ping} shows that the network setup is correct with all 4 transmitted packets getting received.
+To make the modifications into effect, we type in the following command from Secure Shell Client to restart the wirless adapter:
+\begin{lstlisting}[language={bash}]
+ifconfig wlan0 down && ifconfig wlan0 up
+\end{lstlisting}
+ To verify the WiFi connection is functioning, we type in:
+\begin{lstlisting}[language={bash}]
+ping www.google.com.hk
+\end{lstlisting}
+Fig.\ref{ping} shows that the network setup is correct with all 4 transmitted packets getting received.
 
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=4in]{./figs/ping.PNG}
-	\caption{A successful ping to Google.}
+	\caption{A Successful Ping to Google}
 	\label{ping}
 \end{figure}
 
-One last reminder is that we suggest to log in as `root' rather than `ubuntu'. This is primarily because `ubuntu' does have full access to all system resources and in many cases, you would get errors like `permission denied'. Just switch to `root' and all these annoying errors disappear.
-
 \subsection{Web Server Setup}\label{Webser}
-Apache together with PHP5 are used to establish the Web server. Apache can be installed on Ubuntu.
+Apache together with PHP5 is used to establish the Web server. Apache can be installed on Ubuntu by typing in the terminal:
 \begin{lstlisting}[language={bash}]
 apt-get install apache2
 \end{lstlisting}
@@ -262,7 +271,7 @@ Then, direct the browser to ``http://192.168.7.2" or ``http://*wireless IP addre
 vi /var/www/index.php
 \end{lstlisting}
 	
-In order to let Ubuntu can ``understand" PHP code, PHP5 and the Apache PHP5 modules must be installed. By installing both packages
+In order to let Ubuntu  ``understand" PHP code, PHP5 and the Apache PHP5 modules must be installed. By installing both packages
 \begin{lstlisting}[language={bash}]
 apt-get install php5 libapache2-mod-php5
 \end{lstlisting}
@@ -272,16 +281,16 @@ and restarting the Apache service
 \end{lstlisting}
 PHP5 is configured and can be used for Web server developments. Please refer to \cite{Apache} for detailed Web server configuration and PHP testing examples.
 
-After setting up the Web server, we could build our own main webpage by replacing the default $index.php$ file mentioned previously, with a modified one. Here, a CityU style webpage is designed and replaces the original one as the project main webpage, it can be accessed by typing either IP address of the board, see Fig.\ref{mainpage}. The template source code is provided by CityU of Hong Kong. All the sub pages' source code is stored under the path $/var/www/php/$, this indicates that visiting any sub websites, you should direct the browser to ``http://192.168.7.2/php/*source\ file\ name*".
+After setting up the Web server, we could build our own main webpage by replacing the default $index.php$ file mentioned previously, with a modified one. Here, a CityU style webpage is designed and replaces the original one as the project homepage, it can be accessed by typing either IP address of the board, see Fig.\ref{mainpage}. The template source code is provided by CityU of Hong Kong. All the sub pages' source code is stored under the path $/var/www/php/$, which indicates that visiting any sub websites, you should direct the browser to ``http://192.168.7.2/php/*source\ file\ name*".
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=4in]{./figs/mainpage.jpg}
-	\caption{Project main webpage.}
+	\caption{Project Homepage}
 	\label{mainpage}
 \end{figure}
 	
 \subsection{LED Test}\label{Led}
-The LED Test program is testing the four LED lights located near the Ethernet port and the Reset Button. In general, each LED light has two configuration files: one controls the trigger mode:
+The LED Test program is for testing the four LED lights located near the Ethernet port and the Reset Button. In general, each LED light has two configuration files: one controls the trigger mode:
 \begin{lstlisting}[language={bash}]
 echo none > /sys/class/leds/beaglebone:green:usr?/trigger
 \end{lstlisting}
@@ -321,7 +330,7 @@ $cmd = `/bin/bash ../LED/ledctl.sh $status0 $status1 $status2 $status3`;
 ...
 ?>
 \end{lstlisting}
-the website based LED test can be implemented. See Fig.\ref{LEDTest}: Fig.\ref{LEDTest1} indicates LED\_0 and 2 are switched on, LED\_1 is switched off, and LED\_3 is blink mode.
+the website based LED test can be implemented. For example, Fig.\ref{LEDTest} indicates LED\_0 and 2 are switched on, LED\_1 is switched off, and LED\_3 is blink mode.
 \begin{figure}[ht]
 	\centering
 	
@@ -338,8 +347,6 @@ the website based LED test can be implemented. See Fig.\ref{LEDTest}: Fig.\ref{L
 \end{figure}
 
 \subsection{Web Camera Configuration and Functioning}\label{Webcam}
-In this subsection, a webcam controller is implemented on our Apache web server. A webcamctl.php file is coded for basic functions like photographing, video capturing and face detection. The corresponding web page can be accessed by typing "192.168.7.2/webcamctl.php" in the address bar of your web broswer if BBB is connected to the host PC. A snapshot of this .php file and its web page is shown in Fig.\ref{webcam}.
-
 The camera used in this project is Logitech HD Pro Webcam C920 \cite{logicam} (See Fig. \ref{logicam})which is  capable of delivering high-definition 1080p resolution and supports H.264 encoded compression to provide high quality video at low bit rates. As previously stated in section III-B, the camera is connected to BBB via the USB hub due to the limited number of USB ports on board.
 \begin{figure}[htb]
 	\centering
@@ -366,7 +373,7 @@ In order to interact friendly with the web camber configuration, a webcam contro
      \end{figure}
 
 It is suggested to use OpenCV library to achieve these functionalities because this library is cross-platform, which focuses mainly on real-time image processing and is free for use under the open source BSD license.
-On top of this, OpenCV is pre-installed by default on our Ubuntu Trusty 14.04 operating system and thus it is not necessary to take pains learning how to immigrate OpenCV into BBB board. For photographing, it is optional to enable face detection function or not. Besides, it automatically detects the edge of this picture by using image edge detection method;  For video capturing, we also provide with 4 options for the capture duration: 4 seconds, 8 seconds, 12 seconds and 16 seconds.  We present below in Fig.\ref{webcamdemo} the demo of this work by detecting the author himself.
+On top of this, OpenCV is pre-installed by default on our Ubuntu Trusty 14.04 operating system and thus it is not necessary to take pains learning how to immigrate OpenCV into BBB board. For photographing, we offer an option to enable face detection function or not. Besides, it automatically detects the edge of this picture by using image edge detection method;  For video capturing, we also provide with 4 options for the capture duration: 4 seconds, 8 seconds, 12 seconds and 16 seconds.  We present below in Fig.\ref{webcamdemo} the demo of this work by detecting the author himself.
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=4in]{./figs/webcam3.PNG}
@@ -374,7 +381,7 @@ On top of this, OpenCV is pre-installed by default on our Ubuntu Trusty 14.04 op
 	\label{webcamdemo}
 \end{figure}
 
-The details about the implementation of photographing and video capturing is introduced by Derek Molloy in his personal website \cite{molloy}. Please refer to \textcolor{blue}{\textit{\url{http://derekmolloy.ie/beaglebone/beaglebone-video-capture-and-image-processing-on-embedded-linux-using-opencv/}}} and \textcolor{blue}{\textit{\url{http://stackoverflow.com/questions/20757147/opencv-and-cdetect-face-in-image}}} for more details.
+The details about the implementation of photographing and video capturing is introduced by Derek Molloy in his personal website \cite{molloy}. Please refer to \cite{molloy_videocapture,facedetection} for more details.
 %
 %
 %The details about the implementation of photographing and video capturing is introduced by Derek Molloy in his personal website \cite{molloy}.
@@ -392,7 +399,7 @@ Then restart the Apache service:
 \begin{lstlisting}[language={bash}]
 /etc/init.d/apache2 restart
 \end{lstlisting}
-phpMyAdmin is a web interface through which the MySQL databases can be easily managed: 
+phpMyAdmin is a web interface through which the MySQL databases can be easily managed:
 \begin{lstlisting}[language={bash}]
 apt-get install phpmyadmin
 \end{lstlisting}
@@ -403,26 +410,27 @@ ln -s /usr/share/phpmyadmin /var/www
 Finally, by tying ``http://192.168.7.2/phpmyadmin" in the browser, and login with the username and password, the MySQL databases can be accessed with a graphical interface (See Fig.\ref{sql1}). Through which we could add, delete, set and insert data into databases.
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=5in]{./figs/sql1.jpg}
+	\includegraphics[width=4.5in]{./figs/sql1.jpg}
 	\caption{phpMyAdmin interface.}
 	\label{sql1}
 \end{figure}
-
-In this project, the main idea we use to insert captured videos and images into the database TempDB is: first, three $.cpp$ files are written, in which some mysql based functions are included in order to login to MySQL and insert specified file (video, image, edge) into the right table of database TempDB; then compile this files using g++, taking $video.cpp$ as an example:
-\begin{lstlisting}[language={bash}]
-g++ video.cpp -o video -I/usr/include/mysql –lmysqlclient
-\end{lstlisting}
-Finally, calling all these three compiled files in $webcamctl.php$, so that the captured videos and images can be stored into the specified tables in TempDB with a corresponding timestamps. (See Fig.\ref{sql2})
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=4in]{./figs/sql2.jpg}
 	\caption{Inserted data in the tables of TempDB, MySQL.}
 	\label{sql2}
 \end{figure}
+
+In this project, the main idea we use to insert captured videos and images into the database TempDB is: first, three $.cpp$ files are written, in which some mysql based functions are included in order to login to MySQL and insert specified file (video, image, edge) into the right table of database TempDB; then compile this files using g++, taking $video.cpp$ as an example:
+\begin{lstlisting}[language={bash}]
+g++ video.cpp -o video -I/usr/include/mysql mysqlclient
+\end{lstlisting}
+Finally, call all these three compiled files in $webcamctl.php$, so that the captured videos and images can be stored into the specified tables in TempDB with a corresponding timestamp. (See Fig.\ref{sql2})
+
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %	
 \section{Conclusions}\label{Con}
-In this project, we use BBB and embedded ARM-Linex as the hardware and software development tools, respectively. Implementing a series of functions including: Web server and SQL server setup and configuration; webpage based LED Test, Image/Video Capture and face detection; implementation of MySQL based data storage.
+In this project, we use BBB and embedded ARM-Linex as the hardware and software development tools, respectively. Implementing a series of functions including: Web server and SQL server setup and configuration; webpage based LED Test, Image/Video Capture and face detection;  MySQL based data storage functionality.
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %

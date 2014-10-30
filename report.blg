@@ -1,14 +1,23 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: report.aux
 The style file: plain.bst
 Database file #1: bibfile.bib
+Repeated entry---line 6 of file bibfile.bib
+ : @manual{Apache
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "windowsICS"
 Warning--to sort, need author, organization, or key in startBB
 Warning--to sort, need author, organization, or key in flashBB
 Warning--to sort, need author, organization, or key in Apache
 Warning--to sort, need author, organization, or key in logicam
 Warning--to sort, need author, organization, or key in molloy
-Warning--empty title in logicam
+Warning--to sort, need author, organization, or key in molloy_videocapture
+Warning--to sort, need author, organization, or key in facedetection
 Warning--empty title in Apache
+Warning--empty title in logicam
+Warning--empty title in molloy_videocapture
+Warning--empty title in facedetection
 Warning--empty title in startBB
 Warning--empty title in molloy
 Warning--empty title in flashBB
-(There were 10 warnings)
+(There was 1 error message)
