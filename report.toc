@@ -8,8 +8,9 @@
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-D}}LED Test}{9}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-E}}Web Camera Configuration and Functioning}{11}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-F}}SQL Server Setup and Application}{13}
-\contentsline {section}{\numberline {IV}Conclusions}{14}
-\contentsline {section}{Acknowledgment}{15}
+\contentsline {section}{\numberline {IV}Conclusions}{15}
+\contentsline {section}{Acknowledgment}{16}
 \contentsline {section}{References}{16}
 \contentsline {section}{Appendix}{17}
-\contentsline {subsection}{\numberline {A}An example of how to insert a file into a SQL database}{17}
+\contentsline {subsection}{\numberline {A}An example of LED\_0 control shell script file}{17}
+\contentsline {subsection}{\numberline {B}An example of how to insert a file into a SQL database}{17}

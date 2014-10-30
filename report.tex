@@ -290,27 +290,7 @@ echo none > /sys/class/leds/beaglebone:green:usr0/trigger
 \begin{lstlisting}[language={bash}]
 echo 1 > /sys/class/leds/beaglebone:green:usr0/brightness
 \end{lstlisting}
-1 for light on, and 0 for light off. Some of the LEDs are set to a default trigger mode which could display information to users about what is going on. Thus, the trigger mode must be set to passive mode before the state of light changes. And for blink mode, only the first command affects. Note that character ``$?$" in the above paths can be 0, 1, 2, and 3. Here gives the example of LED\_0 control shell script file.
-\begin{lstlisting}[language={bash}]
-#!/bin/bash
-case "$1" in
-'on')
-echo "LED_0 is turned on"
-sudo bash -c "echo none > /sys/class/leds/beaglebone:green:usr0/trigger"
-sudo bash -c "echo 1 >    /sys/class/leds/beaglebone:green:usr0/brightness"
-;;
-'off')
-echo "LED_0 is turned off"
-sudo bash -c "echo none > /sys/class/leds/beaglebone:green:usr0/trigger"
-sudo bash -c "echo 0 >    /sys/class/leds/beaglebone:green:usr0/brightness"
-;;
-'heartbeat')
-echo "LED_0 is blinking"
-sudo bash -c "echo heartbeat > /sys/class/leds/beaglebone:green:usr0/trigger"
-;;
-esac
-\end{lstlisting}
-Similarly, the shell script can be written to control all four LEDs. An example of the control command:
+1 for light on, and 0 for light off. Some of the LEDs are set to a default trigger mode which could display information to users about what is going on. Thus, the trigger mode must be set to passive mode before the state of light changes. And for blink mode, only the first command affects. Note that ``usr0" in the above paths can be changed to usr01, 2, and 3. Appendix \ref{AppendixLED} provides an example of LED\_0 control shell script. By modifying Appendix \ref{AppendixLED}, a shell script to control all four LEDs can be obtained. Such file is named as $ledctl.sh$ and an example of the all-four LEDs control command is given:
 \begin{lstlisting}[language={bash}]
 /var/www/LED/ledctl.sh on off on heartbeat
 \end{lstlisting}
@@ -413,7 +393,7 @@ Finally, by tying ``http://192.168.7.2/phpmyadmin" in the browser, and login wit
 	\label{sql2}
 \end{figure}
 
-In this project, the main idea we use to insert captured videos and images into the database TempDB is: first, three $.cpp$ files are written, in which some mysql based functions are included in order to login to MySQL and insert specified file (video, image, edge) into the right table of database TempDB (see Appendix \ref{AppendixA} as an example); then compile this files using g++, taking $video.cpp$ as an example:
+In this project, the main idea we use to insert captured videos and images into the database TempDB is: first, three $.cpp$ files are written, in which some mysql based functions are included in order to login to MySQL \cite{MySQL} and insert specified file (video, image, edge) into the right table of database TempDB (see Appendix \ref{AppendixSQL} as an example); then compile this files using g++, taking $video.cpp$ as an example:
 
 \begin{lstlisting}[language={bash}]
 g++ video.cpp -o video -I/usr/include/mysql mysqlclient
@@ -436,7 +416,28 @@ We would like to thank our colleague Sean Yang  for his kindly help with the WiF
 \clearpage
 
 \appendix
-	\subsection{An example of how to insert a file into a SQL database}\label{AppendixA}	
+    \subsection{An example of LED\_0 control shell script file}\label{AppendixLED}
+    \begin{lstlisting}[language={bash}]
+    #!/bin/bash
+    case "$1" in
+    'on')
+    echo "LED_0 is turned on"
+    sudo bash -c "echo none > /sys/class/leds/beaglebone:green:usr0/trigger"
+    sudo bash -c "echo 1 >    /sys/class/leds/beaglebone:green:usr0/brightness"
+    ;;
+    'off')
+    echo "LED_0 is turned off"
+    sudo bash -c "echo none > /sys/class/leds/beaglebone:green:usr0/trigger"
+    sudo bash -c "echo 0 >    /sys/class/leds/beaglebone:green:usr0/brightness"
+    ;;
+    'heartbeat')
+    echo "LED_0 is blinking"
+    sudo bash -c "echo heartbeat > /sys/class/leds/beaglebone:green:usr0/trigger"
+    ;;
+    esac
+    \end{lstlisting}
+    
+	\subsection{An example of how to insert a file into a SQL database}\label{AppendixSQL}	
 	\begin{lstlisting}[language={c}]
 	#include <mysql.h>
 	#include <stdlib.h>
