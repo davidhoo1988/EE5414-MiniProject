@@ -2,12 +2,12 @@
 \contentsline {section}{\numberline {I}Introduction}{2}
 \contentsline {section}{\numberline {II}Hardware Description and Implementation}{2}
 \contentsline {section}{\numberline {III}Software Description and Implementation}{4}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Operating System Installation and Configuration}{5}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Operating System Installation and Configuration}{4}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Wireless Adapter Configuration}{6}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}Web Server Setup}{8}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-D}}LED Test}{9}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-E}}Web Camera Configuration and Functioning}{11}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-F}}SQL Server Setup and Application}{13}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-F}}SQL Server Setup and Application}{12}
 \contentsline {section}{\numberline {IV}Conclusions}{15}
 \contentsline {section}{Acknowledgment}{15}
 \contentsline {section}{References}{15}

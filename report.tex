@@ -95,14 +95,15 @@ An embedded system is a computer system with a specific function and embedded in
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 \section{Hardware Description and Implementation}\label{HdDes}
 
-BBB is a low-cost, community-supported hardware device for embedded application development. BBB board mainly contains an ARM Cortex A8 series processor, a 512MB DDR3 RAM memory, an onboard 2GB MMC chip, with some other necessary peripherals. In this project, the BBB board is developed with following cables and devices: \\
-
-$\bullet$ A MiniUSB Cable, which can be used to connect the board with PC and served as power source (limited to 500mA), network, and serial port for data transmission;\\
-$\bullet$ An external DC power supply with 5V and a minimum of 1A current output;\\
-$\bullet$ An USB Hub to expand the onboard USB Host port from one to four;\\
-$\bullet$ An USB portable 802.11N wireless adapter;\\
-$\bullet$ A Logitech HD Pro C920 Web Camera, which is a USB webcam and provides full HD 1080p video recording in wide-screen at a maximum rate of 30 frames per second;\\
-$\bullet$ A mini SD card and its corresponding USB portable card reader.\\
+BBB is a low-cost, community-supported hardware device for embedded application development. BBB board mainly contains an ARM Cortex A8 series processor, a 512MB DDR3 RAM memory, an onboard 2GB MMC chip, with some other necessary peripherals. In this project, the BBB board is developed with following cables and devices: 
+\begin{itemize}
+\item A MiniUSB Cable, which can be used to connect the board with PC and served as power source (limited to 500mA), network, and serial port for data transmission;
+\item An external DC power supply with 5V and a minimum of 1A current output;
+\item A USB Hub to expand the onboard USB Host port from one to four;
+\item A USB portable 802.11N wireless adapter;
+\item A Logitech HD Pro C920 Web Camera, which is a USB webcam and provides full HD 1080p video recording in wide-screen at a maximum rate of 30 frames per second;
+\item A mini SD card and its corresponding USB portable card reader.
+\end{itemize}
 The detailed and connection information of all hardware cables and devices is provided in both Fig.\ref{hw1}, for block diagram view, and Fig.\ref{hw2} for real view.
 \begin{figure}[ht]
 	\centering
@@ -117,7 +118,7 @@ The detailed and connection information of all hardware cables and devices is pr
 	\label{hw2}
 \end{figure}
 
-Both of the figures indicate the hardware setup details. First, the BBB board is connected to a PC using the MiniUSB Cable. Via the cable, the BBB board could not only receives a 5V/500mA power supply provided by PC's USB port, but also be accessible from a host PC and share the Internet connection by setting up Windows ICS \cite{windowsICS}, in addition, users could operate Linux instructions through specific Windows-based software clients. Second, in case of unexpected system shutdown issue caused by current exceeding (current supply using MiniUSB Cable is set at a maximum of 500mA), an external power supply is used. Third, a USB Hub is connected to the onboard host USB port for expanding the port from one to four. Finally, the Logitech C920 webcam is connected to the USB Hub with its attached USB cable, together with a USB portable wireless adapter. Note that in this project, system could have two different IP addresses for Ethernet and wireless connection, respectively, also the BBB board could have an alternative way to access the Internet: getting access to a WiFi or Hotspot connection via the wireless adapter.
+Both of the figures indicate the hardware setup details. First, the BBB board is connected to a PC using the MiniUSB Cable. Via the cable, the BBB board could not only receives a 5V/500mA power supply provided by PC's USB port, but also be accessible from a host PC and share the Internet connection by setting up Windows ICS \cite{windowsICS}; In addition, users could operate Linux instructions through specific Windows-based software clients. Second, in case of unexpected system shutdown issue caused by current exceeding (current supply using MiniUSB Cable is set at a maximum of 500mA), an external power supply is used. Third, a USB Hub is connected to the onboard host USB port for expanding the port from one to four. Finally, the Logitech C920 webcam is connected to the USB Hub with its attached USB cable, together with a USB portable wireless adapter. Note that in this project, system could have two different IP addresses for Ethernet and wireless connection, respectively, also the BBB board could have an alternative way to access the Internet: getting access to a WiFi or Hotspot connection via the wireless adapter.
 
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
@@ -133,7 +134,7 @@ Both of the figures indicate the hardware setup details. First, the BBB board is
 In this project, the software implementation includes installation, configuration as well as application of embedded OS, Web server, PHP, and MySQL; setup and website-based control of onboard LEDs and the C920 Web Camera. Fig.\ref{sw1} provides a block diagram of software description.
 
 	\subsection{Operating System Installation and Configuration}\label{Sys}
-	In our implementation, we install Ubuntu Trusty 14.04 on BBB. This image uses the Ubuntu 14.04 core This results an easy-to-install and stable Linux image that works well with the BBB boards.
+	In our implementation, we install Ubuntu Trusty 14.04 on BBB. This image uses the Ubuntu 14.04 core and thus  results  in an easy-to-install and stable Linux image that works well with the BBB boards.
 
 First, OS binaries ``ubuntu-trusty-14.04-rootfs-3.14.4.1-bone-armhf.com.tar.xz" can be downloaded from \textcolor{blue}{\textit{\url{http://www.armhf.com/boards/beaglebone-black/}}}; After uncompressing this file, we can get the Ubuntu Trusty 14.04 image as shown in Fig.\ref{osimage}. Next, this image should be burn into a microSD card such that we can install Ubuntu 14.04 onto BBB. One way of doing this task is by utilising Win32DiskImager, which is a powerful tool automatically creating a OS boot disk and available at \textcolor{blue}{\textit{\url{http://sourceforge.net/projects/win32diskimager/files/latest/download}}}. In Fig.\ref{win32diskimager}, Win32DiskImager is starting to write Ubuntu.img to the microSD card, as presented by `device' F:. Please refer to the getting started page on the BeagleBone official website \cite{startBB} to find more details on the OS installation.
 
@@ -163,7 +164,7 @@ Keep holding down the button until  the bank of 4 LED's light up for a few secon
 It will take anywhere from 30-45 minutes to flash the image onto the on-board chip. Once it's done, the bank of 4 LED's to the right of the Ethernet will all stay lit up at the same time. We can then power down the BBB \cite{flashBB}. One important thing worth mentioning is that after finishing this step, we do not need microSD card for installation anymore --- you can plug it out and whenever you power the board again, Ubuntu is able to automatically boot from MMC, the inner storage component on chip.
 	
 \subsection{Wireless Adapter Configuration}\label{Wireless}
-Once the OS is successfully set up on board, it becomes critical to have Internet access --- We need to install extra system utilities or download third-party libraries to support this project. So in this section, we detail how to setup a WiFi connection for BBB.
+Once the OS is successfully set up on board, it becomes critical to have Internet access --- We need to install extra system utilities or download third-party libraries to support this project. So in this section, we detail how to set up a WiFi connection for BBB.
 
 To begin with, we must connect the components needed into BBB: wireless network adapter, USB hub and miniUSB cable (See Fig.\ref{WiFi}). The wireless network adapter is the key for Internet connectivity. Besides this adapter, a web camera is also required by this project but we only have one USB port for them.  We therefore use a USB hub to install both components. We also need a miniUSB cable to connect BBB to the host PC such that we can remote control BBB through host PC's keyboard. Or to be more precise, we start a SSH connection to BBB through this cable.
 
@@ -259,7 +260,7 @@ and restarting the Apache service
 \end{lstlisting}
 PHP5 is configured and can be used for Web server developments. Please refer to \cite{Apache1} for detailed Web server configuration and PHP testing examples.
 
-After setting up the Web server, we could build our own main webpage by replacing the default $index.php$ file mentioned previously, with a modified one. Here, a CityU style webpage is designed and replaces the original one as the project homepage, it can be accessed by typing either IP address of the board, see Fig.\ref{mainpage}. The template source code is provided by CityU of Hong Kong. All the sub pages' source code is stored under the path $/var/www/php/$, which indicates that visiting any sub websites, you should direct the browser to ``http://192.168.7.2/php/*source\ file\ name*".
+After setting up the Web server, we could build our own main webpage by replacing the default $index.php$ file mentioned previously, with a modified one. Here, a CityU style webpage is designed and replaces the original one as the project homepage, it can be accessed by typing either IP address of the board, see Fig.\ref{mainpage}. The template source code is provided by CityU of Hong Kong. All the subpages' source code is stored under the path $/var/www/php/$, which indicates that visiting any sub websites, you should direct the browser to ``http://192.168.7.2/php/*source\ file\ name*".
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=4in]{./figs/mainpage.jpg}
@@ -303,9 +304,9 @@ the website based LED test can be implemented. For example, Fig.\ref{LEDTest} in
 \end{figure}
 
 \subsection{Web Camera Configuration and Functioning}\label{Webcam}
-The camera used in this project is Logitech HD Pro Webcam C920 \cite{logicam} (See Fig. \ref{logicam}), which is capable of delivering high-definition 1080p resolution and supports H.264 encoded compression to provide high quality video at low bit rates. As previously stated in section III-B, the camera is connected to BBB via the USB hub due to the limited number of USB ports on board.
+The camera used in this project is Logitech HD Pro Webcam C920 \cite{logicam} (See Fig.\ref{logicam}), which is capable of delivering high-definition 1080p resolution and supports H.264 encoded compression to provide high quality video at low bit rates. As previously stated in section III-B, the camera is connected to BBB via the USB hub due to the limited number of USB ports on board.
 
-In order to interact friendly with the web camber configuration, a webcam controller is implemented on our Apache web server. A webcamctl.php file is coded for basic functions like photographing, video capturing and face detection. The corresponding web page can be accessed by typing ``192.168.7.2/webcamctl.php" in the address bar of your web browser if BBB is connected to the host PC.  A snapshot of this $.php$ file and its web page is shown in Fig. \ref{webcam}.
+In order to interact friendly with the web camber configuration, a webcam controller is implemented on our Apache web server. A webcamctl.php file is coded for basic functions like photographing, video capturing and face detection. The corresponding web page can be accessed by typing ``192.168.7.2/webcamctl.php" in the address bar of your web browser if BBB is connected to the host PC.  A snapshot of its web page is shown in Fig.\ref{webcamctl}.
 
 
 \begin{figure}[htb]
@@ -317,7 +318,7 @@ In order to interact friendly with the web camber configuration, a webcam contro
 %       \includegraphics[width=3in]{./figs/webcam.PNG}
 %     }
     \subfigure[Web Page for Webcam Controller.]{
-       \includegraphics[width=3in]{./figs/webcam2.PNG}
+       \includegraphics[width=3in]{./figs/webcam2.PNG}\label{webcamctl}
 
      }
      \caption{C920 Web Camera and Web Page.}\label{webcam}
@@ -332,7 +333,7 @@ On top of this, OpenCV is pre-installed by default on our Ubuntu Trusty 14.04 op
 	\label{webcamdemo}
 \end{figure}
 
-The details about the implementation of photographing and video capturing is introduced by Derek Molloy in his personal website \cite{molloy}. Please refer to \cite{molloy_videocapture,facedetection} for more details.
+The details about the implementation of photographing and video capturing are introduced by Derek Molloy in his personal website \cite{molloy}. Please refer to \cite{molloy_videocapture,facedetection} for more information.
 %
 %
 %The details about the implementation of photographing and video capturing is introduced by Derek Molloy in his personal website \cite{molloy}.
@@ -382,7 +383,7 @@ Finally, call all these three compiled files in $webcamctl.php$, so that the cap
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %	
 \section{Conclusions}\label{Con}
-In this project, we use BBB and embedded ARM-Linex as the hardware and software development tools, respectively. Implementing a series of functions including: Web server and SQL server setup and configuration; webpage based LED Test, Image/Video Capture and face detection;  MySQL based data storage functionality.
+In this project, we use BBB and embedded ARM-Linux as the hardware and software development tools, respectively. Implementing a series of functions including: Web server and SQL server setup and configuration; webpage based LED Test, Image/Video Capture and face detection;  MySQL based data storage functionality.
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
