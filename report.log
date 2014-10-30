@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.2)  28 OCT 2014 18:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.2)  30 OCT 2014 15:34
 entering extended mode
 **report.tex
 ("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.tex"
@@ -13,8 +13,10 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\ieeetran\IEEEtran.cls"
-Document Class: IEEEtran 2012/12/27 V1.8 by Michael Shell
+("E:\Dropbox\LaTaX files\EE5414 Mini Project\IEEEtran.cls"
+Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Chr
+istensen
+-- Based on V1.7a by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
 \@IEEEtrantmpdimenA=\dimen102
@@ -22,7 +24,7 @@ Document Class: IEEEtran 2012/12/27 V1.8 by Michael Shell
 \@IEEEtrantmpcountA=\count79
 \@IEEEtrantmpcountB=\count80
 \@IEEEtrantmptoksA=\toks14
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 368.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 373.
 
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -35,41 +37,41 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \CLASSINFOnormalsizeunitybaselineskip=\dimen106
 \IEEEnormaljot=\dimen107
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <22> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <22> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
 \IEEEilabelindentA=\dimen108
 \IEEEilabelindentB=\dimen109
 \IEEEilabelindent=\dimen110
@@ -90,9 +92,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \c@table=\count87
 \@IEEEeqnnumcols=\count88
 \@IEEEeqncolcnt=\count89
-\@IEEEsubeqnnumrollback=\count90
 \@IEEEtmpitemindent=\dimen116
-\c@IEEEbiography=\count91
+\c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
 ) ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
@@ -132,13 +133,13 @@ Package: amstext 2000/06/29 v2.01
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count92
+\inf@bad=\count91
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count93
-\leftroot@=\count94
+\uproot@=\count92
+\leftroot@=\count93
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count95
-\DOTSCASE@=\count96
+\classnum@=\count94
+\DOTSCASE@=\count95
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -147,15 +148,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen119
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count97
-\c@MaxMatrixCols=\count98
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
 \dotsspace@=\muskip10
-\c@parentequation=\count99
-\dspbrk@lvl=\count100
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
 \tag@help=\toks17
-\row@=\count101
-\column@=\count102
-\maxfields@=\count103
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
 \andhelp@=\toks18
 \eqnshift@=\dimen120
 \alignsep@=\dimen121
@@ -178,23 +179,23 @@ LaTeX Info: Redefining \] on input line 2666.
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-\lst@mode=\count104
+\lst@mode=\count103
 \lst@gtempboxa=\box29
 \lst@token=\toks22
-\lst@length=\count105
+\lst@length=\count104
 \lst@currlwidth=\dimen127
-\lst@column=\count106
-\lst@pos=\count107
+\lst@column=\count105
+\lst@pos=\count106
 \lst@lostspace=\dimen128
 \lst@width=\dimen129
-\lst@newlines=\count108
-\lst@lineno=\count109
+\lst@newlines=\count107
+\lst@lineno=\count108
 \lst@maxwidth=\dimen130
 
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
-\c@lstnumber=\count110
-\lst@skipnumbers=\count111
+\c@lstnumber=\count109
+\lst@skipnumbers=\count110
 \lst@framebox=\box30
 )
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
@@ -219,7 +220,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count112
+\Gread@gobject=\count111
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
@@ -237,16 +238,16 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTright=\skip48
 \LTpre=\skip49
 \LTpost=\skip50
-\LTchunksize=\count113
+\LTchunksize=\count112
 \LTcapwidth=\dimen131
 \LT@head=\box31
 \LT@firsthead=\box32
 \LT@foot=\box33
 \LT@lastfoot=\box34
-\LT@cols=\count114
-\LT@rows=\count115
-\c@LT@tables=\count116
-\c@LT@chunks=\count117
+\LT@cols=\count113
+\LT@rows=\count114
+\c@LT@tables=\count115
+\c@LT@chunks=\count116
 \LT@p@ftn=\toks23
 )
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
@@ -289,10 +290,10 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigbottomskip=\skip53
 \subfigcapmargin=\dimen135
 \subfiglabelskip=\skip54
-\c@subfigure=\count118
-\c@lofdepth=\count119
-\c@subtable=\count120
-\c@lotdepth=\count121
+\c@subfigure=\count117
+\c@lofdepth=\count118
+\c@subtable=\count119
+\c@lotdepth=\count120
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -301,11 +302,11 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfig@top=\skip55
 \subfig@bottom=\skip56
 )
-\c@theorem=\count122
-\c@algorithm=\count123
-\c@lemma=\count124
-\c@example=\count125
-\c@fact=\count126
+\c@theorem=\count121
+\c@algorithm=\count122
+\c@lemma=\count123
+\c@example=\count124
+\c@fact=\count125
 
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
@@ -327,20 +328,20 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
 LaTeX Font Info:    ... okay on input line 76.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
 LaTeX Font Info:    ... okay on input line 76.
-\c@lstlisting=\count127
+\c@lstlisting=\count126
 
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count128
+\scratchcounter=\count127
 \scratchdimen=\dimen136
 \scratchbox=\box35
-\nofMPsegments=\count129
-\nofMParguments=\count130
+\nofMPsegments=\count128
+\nofMParguments=\count129
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count131
+\MPscratchCnt=\count130
 \MPscratchDim=\dimen137
-\MPnumerator=\count132
-\makeMPintoPDFobject=\count133
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
 \everyMPtoPDFconversion=\toks25
 )
 ** ATTENTION: \authorblockN is deprecated (line 95). Use \IEEEauthorblockN inst
@@ -386,56 +387,56 @@ File: ./figs/sw1.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./figs/sw1.jpg used on input line 137.
 (pdftex.def)             Requested size: 433.62pt x 327.70787pt.
  [4 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/sw1.jpg>]
-<./figs/osimage.PNG, id=24, 643.6547pt x 272.51813pt>
+<./figs/osimage.PNG, id=23, 643.6547pt x 272.51813pt>
 File: ./figs/osimage.PNG Graphic file (type png)
  <use ./figs/osimage.PNG>
 Package pdftex.def Info: ./figs/osimage.PNG used on input line 151.
 (pdftex.def)             Requested size: 289.07999pt x 122.39915pt.
 
-<./figs/microsd.JPG, id=26, 3276.24pt x 2457.18pt>
+<./figs/microsd.JPG, id=25, 3276.24pt x 2457.18pt>
 File: ./figs/microsd.JPG Graphic file (type jpg)
  <use ./figs/microsd.JPG>
 Package pdftex.def Info: ./figs/microsd.JPG used on input line 161.
 (pdftex.def)             Requested size: 144.54pt x 108.3937pt.
 
-<./figs/win32diskimager.PNG, id=27, 344.03531pt x 232.61906pt>
+<./figs/win32diskimager.PNG, id=26, 344.03531pt x 232.61906pt>
 File: ./figs/win32diskimager.PNG Graphic file (type png)
 
 <use ./figs/win32diskimager.PNG>
 Package pdftex.def Info: ./figs/win32diskimager.PNG used on input line 165.
 (pdftex.def)             Requested size: 180.67499pt x 122.16232pt.
- [5 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/osimage.PNG> <E:/Dropbox/L
-aTaX files/EE5414 Mini Project/figs/microsd.JPG> <E:/Dropbox/LaTaX files/EE5414
- Mini Project/figs/win32diskimager.PNG>]
-<./figs/wifiadapter.JPG, id=33, 3276.24pt x 2457.18pt>
+ [5 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/osimage.PNG>] <./figs/wifi
+adapter.JPG, id=32, 3276.24pt x 2457.18pt>
 File: ./figs/wifiadapter.JPG Graphic file (type jpg)
 
 <use ./figs/wifiadapter.JPG>
 Package pdftex.def Info: ./figs/wifiadapter.JPG used on input line 184.
 (pdftex.def)             Requested size: 144.54pt x 108.3937pt.
- <./figs/usbhub.JPG, id=34, 3276.24pt x 2457.18pt>
+ <./figs/usbhub.JPG, id=33, 3276.24pt x 2457.18pt>
 File: ./figs/usbhub.JPG Graphic file (type jpg)
 
 <use ./figs/usbhub.JPG>
 Package pdftex.def Info: ./figs/usbhub.JPG used on input line 188.
 (pdftex.def)             Requested size: 144.54pt x 108.3937pt.
 
-<./figs/miniusbcable.JPG, id=35, 3276.24pt x 2457.18pt>
+<./figs/miniusbcable.JPG, id=34, 3276.24pt x 2457.18pt>
 File: ./figs/miniusbcable.JPG Graphic file (type jpg)
 
 <use ./figs/miniusbcable.JPG>
 Package pdftex.def Info: ./figs/miniusbcable.JPG used on input line 192.
 (pdftex.def)             Requested size: 144.54pt x 108.3937pt.
- [6]
-<./figs/ssh1.PNG, id=40, 453.94594pt x 384.6872pt>
+ [6 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/microsd.JPG> <E:/Dropbox/L
+aTaX files/EE5414 Mini Project/figs/win32diskimager.PNG>] <./figs/ssh1.PNG, id=
+40, 453.94594pt x 384.6872pt>
 File: ./figs/ssh1.PNG Graphic file (type png)
- <use ./figs/ssh1.PNG>
+
+<use ./figs/ssh1.PNG>
 Package pdftex.def Info: ./figs/ssh1.PNG used on input line 209.
 (pdftex.def)             Requested size: 180.67499pt x 153.10907pt.
-
-<./figs/ssh2.PNG, id=41, 457.71pt x 381.67593pt>
+ <./figs/ssh2.PNG, id=41, 457.71pt x 381.67593pt>
 File: ./figs/ssh2.PNG Graphic file (type png)
- <use ./figs/ssh2.PNG>
+
+<use ./figs/ssh2.PNG>
 Package pdftex.def Info: ./figs/ssh2.PNG used on input line 213.
 (pdftex.def)             Requested size: 180.67499pt x 150.65842pt.
  [7 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/wifiadapter.JPG> <E:/Dropb
@@ -542,10 +543,10 @@ Missing character: There is no ® in font ptmr7t!
 ) [17]
 ("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux") ) 
 Here is how much of TeX's memory you used:
- 5231 strings out of 493921
- 73802 string characters out of 3144859
- 249259 words of memory out of 3000000
- 8408 multiletter control sequences out of 15000+200000
+ 5219 strings out of 493921
+ 73450 string characters out of 3144859
+ 248292 words of memory out of 3000000
+ 8397 multiletter control sequences out of 15000+200000
  40746 words of font info for 96 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  32i,8n,51p,1096b,686s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -557,7 +558,7 @@ nts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/urw/courier/ucrr8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/u
 rw/times/utmb8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/ut
 mr8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (18 pages, 10046302 bytes).
+Output written on report.pdf (18 pages, 10047164 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
