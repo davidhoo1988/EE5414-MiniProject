@@ -11,6 +11,7 @@
 \contentsline {section}{\numberline {IV}Conclusions}{15}
 \contentsline {section}{Acknowledgment}{16}
 \contentsline {section}{References}{16}
+\contentsline {section}{References}{16}
 \contentsline {section}{Appendix}{17}
 \contentsline {subsection}{\numberline {A}An example of LED\_0 control shell script file}{17}
 \contentsline {subsection}{\numberline {B}An example of how to insert a file into a SQL database}{17}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.2)  30 OCT 2014 17:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.2)  30 OCT 2014 17:46
 entering extended mode
 **report.tex
 ("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.tex"
@@ -315,7 +315,26 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\shorttoc\shorttoc.sty"
 Package: shorttoc 2002/08/20 v1.3 Short table of contents (JPFD)
 )
-("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux")
+("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux"
+
+LaTeX Warning: Label `logicam' multiply defined.
+
+
+LaTeX Warning: Label `molloy_videocapture' multiply defined.
+
+
+LaTeX Warning: Label `facedetection' multiply defined.
+
+
+LaTeX Warning: Label `startBB' multiply defined.
+
+
+LaTeX Warning: Label `molloy' multiply defined.
+
+
+LaTeX Warning: Label `flashBB' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
@@ -329,8 +348,7 @@ LaTeX Font Info:    ... okay on input line 77.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
 \c@lstlisting=\count126
-
-("F:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ ("F:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count127
 \scratchdimen=\dimen136
@@ -494,52 +512,66 @@ File: ./figs/LED3.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./figs/LED3.jpg used on input line 317.
 (pdftex.def)             Requested size: 144.54pt x 159.75468pt.
 
-<./figs/webcam4.PNG, id=64, 456.70625pt x 501.875pt>
-File: ./figs/webcam4.PNG Graphic file (type png)
- <use ./figs/webcam4.PNG>
-Package pdftex.def Info: ./figs/webcam4.PNG used on input line 325.
-(pdftex.def)             Requested size: 158.99377pt x 174.71693pt.
+
+LaTeX Warning: File `./figs/webcam4.PNG' not found on input line 325.
+
+
+! Package pdftex.def Error: File `./figs/webcam4.PNG' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.325 ...graphics[width=2.2in]{./figs/webcam4.PNG}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [11 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/LED1.jpg> <E:/Dropbox/LaTa
 X files/EE5414 Mini Project/figs/LED2.jpg> <E:/Dropbox/LaTaX files/EE5414 Mini 
-Project/figs/LED3.jpg>] <./figs/webcam.PNG, id=68, 528.47438pt x 745.28438pt>
+Project/figs/LED3.jpg>] <./figs/webcam.PNG, id=67, 528.47438pt x 745.28438pt>
 File: ./figs/webcam.PNG Graphic file (type png)
 
 <use ./figs/webcam.PNG>
 Package pdftex.def Info: ./figs/webcam.PNG used on input line 339.
 (pdftex.def)             Requested size: 216.81pt x 305.75052pt.
- <./figs/webcam2.PNG, id=69, 962.84718pt x 749.04843pt>
+ <./figs/webcam2.PNG, id=68, 962.84718pt x 749.04843pt>
 File: ./figs/webcam2.PNG Graphic file (type png)
 
 <use ./figs/webcam2.PNG>
 Package pdftex.def Info: ./figs/webcam2.PNG used on input line 343.
 (pdftex.def)             Requested size: 216.81pt x 168.66577pt.
 
-<./figs/webcam3.PNG, id=70, 962.84718pt x 749.80125pt>
+<./figs/webcam3.PNG, id=69, 962.84718pt x 749.80125pt>
 File: ./figs/webcam3.PNG Graphic file (type png)
 
 <use ./figs/webcam3.PNG>
 Package pdftex.def Info: ./figs/webcam3.PNG used on input line 351.
 (pdftex.def)             Requested size: 289.07999pt x 225.11372pt.
- [12 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/webcam4.PNG>] <./figs/sql
-1.jpg, id=76, 1181.91562pt x 619.56468pt>
+ [12]
+<./figs/sql1.jpg, id=74, 1181.91562pt x 619.56468pt>
 File: ./figs/sql1.jpg Graphic file (type jpg)
-
-<use ./figs/sql1.jpg>
+ <use ./figs/sql1.jpg>
 Package pdftex.def Info: ./figs/sql1.jpg used on input line 385.
 (pdftex.def)             Requested size: 325.215pt x 170.47061pt.
- <./figs/sql2.jpg, id=77, 703.12688pt x 593.96906pt>
-File: ./figs/sql2.jpg Graphic file (type jpg)
 
-<use ./figs/sql2.jpg>
+<./figs/sql2.jpg, id=75, 703.12688pt x 593.96906pt>
+File: ./figs/sql2.jpg Graphic file (type jpg)
+ <use ./figs/sql2.jpg>
 Package pdftex.def Info: ./figs/sql2.jpg used on input line 391.
 (pdftex.def)             Requested size: 289.07999pt x 244.19957pt.
- [13 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/webcam.PNG> <E:/Dropbox/L
-aTaX files/EE5414 Mini Project/figs/webcam2.PNG>] [14 <E:/Dropbox/LaTaX files/E
-E5414 Mini Project/figs/webcam3.PNG> <E:/Dropbox/LaTaX files/EE5414 Mini Projec
-t/figs/sql1.jpg>]
-("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.bbl" [15 <E:/Dropbox/LaTaX 
-files/EE5414 Mini Project/figs/sql2.jpg>]
+
+[13 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/webcam.PNG> <E:/Dropbox/La
+TaX files/EE5414 Mini Project/figs/webcam2.PNG>] [14 <E:/Dropbox/LaTaX files/EE
+5414 Mini Project/figs/webcam3.PNG> <E:/Dropbox/LaTaX files/EE5414 Mini Project
+/figs/sql1.jpg>] ("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.bbl"
+[15 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/sql2.jpg>]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no ® in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -554,26 +586,29 @@ File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 ) [17
 
 ]
-[18] ("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux") ) 
+[18] ("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux")
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5339 strings out of 493921
- 75106 string characters out of 3144859
- 300139 words of memory out of 3000000
- 8513 multiletter control sequences out of 15000+200000
- 40746 words of font info for 96 fonts, out of 3000000 for 9000
+ 5337 strings out of 493921
+ 75025 string characters out of 3144859
+ 300127 words of memory out of 3000000
+ 8510 multiletter control sequences out of 15000+200000
+ 41045 words of font info for 97 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  32i,8n,51p,1160b,954s stack positions out of 5000i,500n,10000p,200000b,50000s
-{F:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<F:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><F:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/urw/courier/ucrr8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/urw/times/utmb8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
-times/utmr8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri
-8a.pfb>
-Output written on report.pdf (19 pages, 10042659 bytes).
+{F:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<F:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><F:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><F:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><F:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/urw/times/utmr8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on report.pdf (19 pages, 9953153 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
+ 119 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
