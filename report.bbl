@@ -1,6 +1,6 @@
 \begin{thebibliography}{1}
 
-\bibitem{Apache}
+\bibitem{windowsICS}
 Getting Started – USB Network Adapter on the Beaglebone,\\
   \url{http://derekmolloy.ie/beaglebone/getting-started-usb-network-adapter-on-the-beaglebone/}.
 
@@ -15,6 +15,12 @@ Beaglebone: Video Capture and Image Processing on Embedded Linux using OpenCV,
 \bibitem{facedetection}
 opencv and C++:detect face in image,
   \url{http://stackoverflow.com/questions/20757147/opencv-and-cdetect-face-in-image}.
+
+\bibitem{Apache1}
+Feb, 2012.
+\newblock Falko Timme,
+  installing-apache2-with-php5-and-mysql-support-on-ubuntu-12.04-lts-lamp,\\
+  \url{http://www.howtoforge.com}.
 
 \bibitem{startBB}
 June, 2014.

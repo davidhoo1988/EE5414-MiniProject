@@ -107,7 +107,7 @@ An embedded system is a computer system with a specific function and embedded in
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 \section{Hardware Description and Implementation}\label{HdDes}
 
-BBB is a low-cost, community-supported hardware platform for embedded application development. BBB board mainly contains an ARM Cortex A8 series processor, a 512MB DDR3 RAM memory, an onboard 2GB MMC chip, with some other necessary peripherals. In this project, the BBB board is developed with following cables and devices: \\
+BBB is a low-cost, community-supported hardware device for embedded application development. BBB board mainly contains an ARM Cortex A8 series processor, a 512MB DDR3 RAM memory, an onboard 2GB MMC chip, with some other necessary peripherals. In this project, the BBB board is developed with following cables and devices: \\
 
 $\bullet$ A MiniUSB Cable, which can be used to connect the board with PC and served as power source (limited to 500mA), network, and serial port for data transmission;\\
 $\bullet$ An external DC power supply with 5V and a minimum of 1A current output;\\
@@ -119,13 +119,13 @@ The detailed and connection information of all hardware cables and devices is pr
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=4in]{./figs/hw1.jpg}
-	\caption{Block Diagram of Hardware Description}
+	\caption{Block Diagram of Hardware Description.}
 	\label{hw1}
 \end{figure}
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=4in]{./figs/hw2.jpg}
-	\caption{Real View of Hardware Description}
+	\caption{Real View of Hardware Description.}
 	\label{hw2}
 \end{figure}
 
@@ -138,7 +138,7 @@ Both of the figures indicate the hardware setup details. First, the BBB board is
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=5in]{./figs/sw1.jpg}
-	\caption{Block Diagram of Software Description}
+	\caption{Block Diagram of Software Description.}
 	\label{sw1}
 \end{figure}
 
@@ -147,12 +147,12 @@ In this project, the software implementation includes installation, configuratio
 	\subsection{Operating System Installation and Configuration}\label{Sys}
 	In our implementation, we install Ubuntu Trusty 14.04 on BBB. This image uses the Ubuntu 14.04 core This results an easy-to-install and stable Linux image that works well with the BBB boards.
 
-First, OS binaries ``ubuntu-trusty-14.04-rootfs-3.14.4.1-bone-armhf.com.tar.xz" can be downloaded from \textcolor{blue}{\textit{\url{http://www.armhf.com/boards/beaglebone-black/}}}; After uncompressing this file, we can get the Ubuntu Trusty 14.04 image as shown in Fig.\ref{osimage}. Next, this image should be burn into a microSD card such that we can install Ubuntu 14.04 onto BBB. One way of doing this task is by utilising Win32DiskImager, which is a powerful tool automatically creating a OS boot disk and available at \textcolor{blue}{\textit{\url{http://sourceforge.net/projects/win32diskimager/files/latest/download}}}. In Fig.\ref{win32diskimager}, Win32DiskImager is starting to write Ubuntu.img to the microSD card, as presented by `device' F:. Please refer to the getting started page on the BeagleBone official website \cite{startBB} to find more details on the OS installation
+First, OS binaries ``ubuntu-trusty-14.04-rootfs-3.14.4.1-bone-armhf.com.tar.xz" can be downloaded from \textcolor{blue}{\textit{\url{http://www.armhf.com/boards/beaglebone-black/}}}; After uncompressing this file, we can get the Ubuntu Trusty 14.04 image as shown in Fig.\ref{osimage}. Next, this image should be burn into a microSD card such that we can install Ubuntu 14.04 onto BBB. One way of doing this task is by utilising Win32DiskImager, which is a powerful tool automatically creating a OS boot disk and available at \textcolor{blue}{\textit{\url{http://sourceforge.net/projects/win32diskimager/files/latest/download}}}. In Fig.\ref{win32diskimager}, Win32DiskImager is starting to write Ubuntu.img to the microSD card, as presented by `device' F:. Please refer to the getting started page on the BeagleBone official website \cite{startBB} to find more details on the OS installation.
 
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=4in]{./figs/osimage.PNG}
-	\caption{Ubuntu Trusty 14.04 Image}
+	\caption{Ubuntu Trusty 14.04 Image.}
 	\label{osimage}
 \end{figure}
 
@@ -166,18 +166,18 @@ First, OS binaries ``ubuntu-trusty-14.04-rootfs-3.14.4.1-bone-armhf.com.tar.xz" 
        \includegraphics[width=2.5in]{./figs/win32diskimager.PNG}
        \label{win32diskimager}
      }
-     \caption{Creating A Ubuntu bootable image on microSD card}
+     \caption{Creating A Ubuntu bootable image on microSD card.}
      \end{figure}
 
 When the microSD Card is now ready to boot, we insert it into BBB board, hold down the USER/BOOT button (in our board, it is S3 button.) and apply power, either by the USB cable or 5V adapter. However, it is strongly recommended to plug the 5V adapter in all the time because power adapter can provide more stable voltage than USB cable and thus it is less likely to have unexpected problems caused by power cutoff or insufficient.
 
-Keep holding down the button until  the bank of 4 LED's light up for a few seconds and now release the button.
-It will take anywhere from 30-45 minutes to flash the image onto the on-board chip. Once it's done, the bank of 4 LED's to the right of the Ethernet will all stay lit up at the same time. We can then power down your BBB \cite{flashBB}. One important thing worth mentioning is that after finishing this step, we do not need microSD card installation anymore --- you can plug it out and whenever you power the board again, Ubuntu is able to automatically boot from MMC, the inner storage component on chip.
+Keep holding down the button until  the bank of 4 LED's light up for a few seconds and then release the button.
+It will take anywhere from 30-45 minutes to flash the image onto the on-board chip. Once it's done, the bank of 4 LED's to the right of the Ethernet will all stay lit up at the same time. We can then power down the BBB \cite{flashBB}. One important thing worth mentioning is that after finishing this step, we do not need microSD card for installation anymore --- you can plug it out and whenever you power the board again, Ubuntu is able to automatically boot from MMC, the inner storage component on chip.
 	
 \subsection{Wireless Adapter Configuration}\label{Wireless}
 Once the OS is successfully set up on board, it becomes critical to have Internet access --- We need to install extra system utilities or download third-party libraries to support this project. So in this section, we detail how to setup a WiFi connection for BBB.
 
-To begin with, we must connect the components needed into BBB: wireless network adapter, USB hub and miniUSB cable (See Fig.\ref{WiFi}). The wireless network adapter is the key for Internet connectivity. Besides this adapter, a webcam is also required by this project but we only have one USB port for them.  We therefore use a USB hub to install both components. We also need a miniUSB cable to connect BBB to the host PC such that we can remote control BBB through host PC's keyboard. Or to be more precise, we start a SSH connection to BBB through this cable.
+To begin with, we must connect the components needed into BBB: wireless network adapter, USB hub and miniUSB cable (See Fig.\ref{WiFi}). The wireless network adapter is the key for Internet connectivity. Besides this adapter, a web camera is also required by this project but we only have one USB port for them.  We therefore use a USB hub to install both components. We also need a miniUSB cable to connect BBB to the host PC such that we can remote control BBB through host PC's keyboard. Or to be more precise, we start a SSH connection to BBB through this cable.
 
 \begin{figure}[htb]
 	\centering
@@ -193,16 +193,14 @@ To begin with, we must connect the components needed into BBB: wireless network 
        \includegraphics[width=2in]{./figs/miniusbcable.JPG}
        \label{miniusbcable.JPG}
      }
-     \caption{Essential components for WiFi connection}
+     \caption{Essential components for WiFi connection.}
      \label{WiFi}
      \end{figure}
 
 
-To establish SSH connection, we must log on BBB via SSH protocol and this could be done with the help of SSH tool. In fact, there are a variety of SSH GUI tools available for Windows. In this report, we take Secure Shell Client available on \textcolor{blue}{\textit{\url{http://mepopedia.com/forum/file.php?793,file=1103,filename=SSHSecureShellClient-3.2.9.exe,download=1}}}  as an example because this tool integrates scp command that allows us to transfer files between the host PC and the BBB freely.
+To establish SSH connection, we must log on BBB via SSH protocol and this could be done with the help of SSH tool. In fact, there are a variety of SSH GUI tools available for Windows. In this report, we take the Secure Shell Client available on \textcolor{blue}{\textit{\url{http://mepopedia.com/forum/file.php?793,file=1103,filename=SSHSecureShellClient-3.2.9.exe,download=1}}}. Because of the integration of $scp$ command, this tool allows us to transfer files between the host PC and the BBB freely.
 
-When the wireless network adapter is plug into BBB and BBB itself is also connected to one USB port on our host PC, we open the Secure Shell Client and start a SSH connection from PC to BBB as shown in Fig.\ref{ssh}. Remember the default IP address for BBB is 192.168.7.2 and the default user account is `ubuntu' with password "temppwd".
-
-
+When the wireless network adapter is plug into BBB and BBB itself is also connected to one USB port on our host PC, we open the Secure Shell Client and start a SSH connection from PC to BBB as shown in Fig.\ref{ssh}. Remember the default Ethernet IP address for BBB is 192.168.7.2 and the default user account is `ubuntu' with password "temppwd".
 \begin{figure}[htb]
 	\centering
 
@@ -216,12 +214,6 @@ When the wireless network adapter is plug into BBB and BBB itself is also connec
      }
      \caption{SSH log on via Secure Shell Client for Windows.}\label{ssh}
      \end{figure}
-
-To establish SSH connection, we must log on BeagleBone via SSH protocol and this could be done with the help of SSH tool. In fact, there are a variety of SSH GUI tools available for Windows. In this report, we take Secure Shell Client available on \textcolor{blue}{\textit{\url{http://mepopedia.com/forum/file.php?793,file=1103,filename=SSHSecureShellClient-3.2.9.exe,download=1}}}  as an example because this tool integrates scp command that allows us to transfer files between the host PC and the BeagleBone freely.
-
-When the wireless network adapter is plug into BeagleBone and BeagleBone itself is also connected to one USB port on our host PC, we open the Secure Shell Client and start a SSH connection from PC to BeagleBone as shown in Fig. \ref{ssh}. Remember the default IP address for BeagleBone is 192.168.7.2 and the default user account is `ubuntu' with password "temppwd".
-
-
 
 Finally, we configure the WiFi setup by adding the following commands in the network configuration file located at /ect/network/interfaces:
 \begin{lstlisting}[language={bash}]
@@ -237,18 +229,16 @@ wpa-pairwise CCMP TKIP
 wpa-group CCMP TKIP
 wpa-eap PEAP
 wpa-key-mgmt WPA-EAP
-wpa-identity yourEID@my.cityu.edu.hk
-wpa-password yourPASSWORD
+wpa-identity *yourEID*@my.cityu.edu.hk
+wpa-password *yourPASSWORD*
 \end{lstlisting}
-The idea of this setup is to connect to CityU Campus WiFi network --- "Universities WiFi" with the student EID and password. For safety reason, the EID and password are wiped out and readers can use their own account to fill in.
-
-
+The idea of this setup is to connect to CityU Campus WiFi network --- "Universities WiFi" with the student EID and password.
 
 To make the modifications into effect, we type in the following command from Secure Shell Client to restart the wirless adapter:
 \begin{lstlisting}[language={bash}]
 ifconfig wlan0 down && ifconfig wlan0 up
 \end{lstlisting}
- To verify the WiFi connection is functioning, we type in:
+By typing following command, the function of WiFi connection can be verified:
 \begin{lstlisting}[language={bash}]
 ping www.google.com.hk
 \end{lstlisting}
@@ -257,7 +247,7 @@ Fig.\ref{ping} shows that the network setup is correct with all 4 transmitted pa
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=4in]{./figs/ping.PNG}
-	\caption{A Successful Ping to Google}
+	\caption{A Successful Ping to Google.}
 	\label{ping}
 \end{figure}
 
@@ -279,7 +269,7 @@ and restarting the Apache service
 \begin{lstlisting}[language={bash}]
 /etc/init.d/apache2 restart
 \end{lstlisting}
-PHP5 is configured and can be used for Web server developments. Please refer to \cite{Apache} for detailed Web server configuration and PHP testing examples.
+PHP5 is configured and can be used for Web server developments. Please refer to \cite{Apache1} for detailed Web server configuration and PHP testing examples.
 
 After setting up the Web server, we could build our own main webpage by replacing the default $index.php$ file mentioned previously, with a modified one. Here, a CityU style webpage is designed and replaces the original one as the project homepage, it can be accessed by typing either IP address of the board, see Fig.\ref{mainpage}. The template source code is provided by CityU of Hong Kong. All the sub pages' source code is stored under the path $/var/www/php/$, which indicates that visiting any sub websites, you should direct the browser to ``http://192.168.7.2/php/*source\ file\ name*".
 \begin{figure}[htb]

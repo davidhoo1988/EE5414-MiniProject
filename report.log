@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.2)  30 OCT 2014 15:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.2)  30 OCT 2014 16:26
 entering extended mode
 **report.tex
 ("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.tex"
@@ -380,76 +380,69 @@ File: ./figs/hw2.jpg Graphic file (type jpg)
  <use ./figs/hw2.jpg>
 Package pdftex.def Info: ./figs/hw2.jpg used on input line 127.
 (pdftex.def)             Requested size: 289.07999pt x 216.78741pt.
+ [2
 
-
-LaTeX Warning: Citation `windowsICS' on page 2 undefined on input line 132.
-
-[2
-
-] [3 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/hw1.jpg> <E:/Dropbox/LaTa
-X files/EE5414 Mini Project/figs/hw2.jpg>]
+]
+[3 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/hw1.jpg> <E:/Dropbox/LaTaX 
+files/EE5414 Mini Project/figs/hw2.jpg>]
 <./figs/sw1.jpg, id=19, 557.83406pt x 421.575pt>
 File: ./figs/sw1.jpg Graphic file (type jpg)
  <use ./figs/sw1.jpg>
 Package pdftex.def Info: ./figs/sw1.jpg used on input line 140.
 (pdftex.def)             Requested size: 361.34999pt x 273.09418pt.
  [4 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/sw1.jpg>]
-<./figs/osimage.PNG, id=24, 643.6547pt x 272.51813pt>
+<./figs/osimage.PNG, id=23, 643.6547pt x 272.51813pt>
 File: ./figs/osimage.PNG Graphic file (type png)
  <use ./figs/osimage.PNG>
 Package pdftex.def Info: ./figs/osimage.PNG used on input line 154.
 (pdftex.def)             Requested size: 289.07999pt x 122.39915pt.
 
-<./figs/microsd.JPG, id=26, 3276.24pt x 2457.18pt>
+<./figs/microsd.JPG, id=25, 3276.24pt x 2457.18pt>
 File: ./figs/microsd.JPG Graphic file (type jpg)
  <use ./figs/microsd.JPG>
 Package pdftex.def Info: ./figs/microsd.JPG used on input line 164.
 (pdftex.def)             Requested size: 144.54pt x 108.3937pt.
 
-<./figs/win32diskimager.PNG, id=27, 344.03531pt x 232.61906pt>
+<./figs/win32diskimager.PNG, id=26, 344.03531pt x 232.61906pt>
 File: ./figs/win32diskimager.PNG Graphic file (type png)
 
 <use ./figs/win32diskimager.PNG>
 Package pdftex.def Info: ./figs/win32diskimager.PNG used on input line 168.
 (pdftex.def)             Requested size: 180.67499pt x 122.16232pt.
- [5 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/osimage.PNG> <E:/Dropbox/L
-aTaX files/EE5414 Mini Project/figs/microsd.JPG> <E:/Dropbox/LaTaX files/EE5414
- Mini Project/figs/win32diskimager.PNG>]
-<./figs/wifiadapter.JPG, id=33, 3276.24pt x 2457.18pt>
+ [5 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/osimage.PNG>] <./figs/wifi
+adapter.JPG, id=32, 3276.24pt x 2457.18pt>
 File: ./figs/wifiadapter.JPG Graphic file (type jpg)
 
 <use ./figs/wifiadapter.JPG>
 Package pdftex.def Info: ./figs/wifiadapter.JPG used on input line 187.
 (pdftex.def)             Requested size: 144.54pt x 108.3937pt.
- <./figs/usbhub.JPG, id=34, 3276.24pt x 2457.18pt>
+ <./figs/usbhub.JPG, id=33, 3276.24pt x 2457.18pt>
 File: ./figs/usbhub.JPG Graphic file (type jpg)
 
 <use ./figs/usbhub.JPG>
 Package pdftex.def Info: ./figs/usbhub.JPG used on input line 191.
 (pdftex.def)             Requested size: 144.54pt x 108.3937pt.
 
-<./figs/miniusbcable.JPG, id=35, 3276.24pt x 2457.18pt>
+<./figs/miniusbcable.JPG, id=34, 3276.24pt x 2457.18pt>
 File: ./figs/miniusbcable.JPG Graphic file (type jpg)
 
 <use ./figs/miniusbcable.JPG>
 Package pdftex.def Info: ./figs/miniusbcable.JPG used on input line 195.
 (pdftex.def)             Requested size: 144.54pt x 108.3937pt.
- [6]
-<./figs/ssh1.PNG, id=40, 453.94594pt x 384.6872pt>
+ [6 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/microsd.JPG> <E:/Dropbox/L
+aTaX files/EE5414 Mini Project/figs/win32diskimager.PNG>] <./figs/ssh1.PNG, id=
+40, 453.94594pt x 384.6872pt>
 File: ./figs/ssh1.PNG Graphic file (type png)
- <use ./figs/ssh1.PNG>
-Package pdftex.def Info: ./figs/ssh1.PNG used on input line 212.
+
+<use ./figs/ssh1.PNG>
+Package pdftex.def Info: ./figs/ssh1.PNG used on input line 210.
 (pdftex.def)             Requested size: 180.67499pt x 153.10907pt.
-
-<./figs/ssh2.PNG, id=41, 457.71pt x 381.67593pt>
+ <./figs/ssh2.PNG, id=41, 457.71pt x 381.67593pt>
 File: ./figs/ssh2.PNG Graphic file (type png)
- <use ./figs/ssh2.PNG>
-Package pdftex.def Info: ./figs/ssh2.PNG used on input line 216.
+
+<use ./figs/ssh2.PNG>
+Package pdftex.def Info: ./figs/ssh2.PNG used on input line 214.
 (pdftex.def)             Requested size: 180.67499pt x 150.65842pt.
- [7 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/wifiadapter.JPG> <E:/Dropb
-ox/LaTaX files/EE5414 Mini Project/figs/usbhub.JPG> <E:/Dropbox/LaTaX files/EE5
-414 Mini Project/figs/miniusbcable.JPG> <E:/Dropbox/LaTaX files/EE5414 Mini Pro
-ject/figs/ssh1.PNG> <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/ssh2.PNG>]
 
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/03/04 1.5c listings language file
@@ -457,120 +450,121 @@ File: lstlang1.sty 2014/03/04 1.5c listings language file
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 227.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 219.
 
 
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-<./figs/ping.PNG, id=47, 460.72125pt x 383.18156pt>
+) [7 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/wifiadapter.JPG> <E:/Drop
+box/LaTaX files/EE5414 Mini Project/figs/usbhub.JPG> <E:/Dropbox/LaTaX files/EE
+5414 Mini Project/figs/miniusbcable.JPG> <E:/Dropbox/LaTaX files/EE5414 Mini Pr
+oject/figs/ssh1.PNG> <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/ssh2.PNG>
+]
+<./figs/ping.PNG, id=49, 460.72125pt x 383.18156pt>
 File: ./figs/ping.PNG Graphic file (type png)
  <use ./figs/ping.PNG>
-Package pdftex.def Info: ./figs/ping.PNG used on input line 259.
+Package pdftex.def Info: ./figs/ping.PNG used on input line 249.
 (pdftex.def)             Requested size: 289.07999pt x 240.42339pt.
 
-[8] <./figs/mainpage.jpg, id=52, 946.28531pt x 626.34pt>
+[8] <./figs/mainpage.jpg, id=53, 946.28531pt x 626.34pt>
 File: ./figs/mainpage.jpg Graphic file (type jpg)
 
 <use ./figs/mainpage.jpg>
-Package pdftex.def Info: ./figs/mainpage.jpg used on input line 287.
+Package pdftex.def Info: ./figs/mainpage.jpg used on input line 277.
 (pdftex.def)             Requested size: 289.07999pt x 191.33446pt.
  [9 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/ping.PNG>] [10 <E:/Dropbox
 /LaTaX files/EE5414 Mini Project/figs/mainpage.jpg>]
-<./figs/LED1.jpg, id=61, 1137.4997pt x 626.34pt>
+<./figs/LED1.jpg, id=62, 1137.4997pt x 626.34pt>
 File: ./figs/LED1.jpg Graphic file (type jpg)
  <use ./figs/LED1.jpg>
-Package pdftex.def Info: ./figs/LED1.jpg used on input line 339.
+Package pdftex.def Info: ./figs/LED1.jpg used on input line 329.
 (pdftex.def)             Requested size: 325.215pt x 179.07262pt.
 
-<./figs/LED2.jpg, id=62, 292.09125pt x 326.72063pt>
+<./figs/LED2.jpg, id=63, 292.09125pt x 326.72063pt>
 File: ./figs/LED2.jpg Graphic file (type jpg)
  <use ./figs/LED2.jpg>
-Package pdftex.def Info: ./figs/LED2.jpg used on input line 342.
+Package pdftex.def Info: ./figs/LED2.jpg used on input line 332.
 (pdftex.def)             Requested size: 144.54pt x 161.67984pt.
 
-<./figs/LED3.jpg, id=63, 286.06876pt x 316.18124pt>
+<./figs/LED3.jpg, id=64, 286.06876pt x 316.18124pt>
 File: ./figs/LED3.jpg Graphic file (type jpg)
  <use ./figs/LED3.jpg>
-Package pdftex.def Info: ./figs/LED3.jpg used on input line 345.
+Package pdftex.def Info: ./figs/LED3.jpg used on input line 335.
 (pdftex.def)             Requested size: 144.54pt x 159.75468pt.
 
-<./figs/webcam4.PNG, id=64, 456.70625pt x 501.875pt>
+<./figs/webcam4.PNG, id=65, 456.70625pt x 501.875pt>
 File: ./figs/webcam4.PNG Graphic file (type png)
  <use ./figs/webcam4.PNG>
-Package pdftex.def Info: ./figs/webcam4.PNG used on input line 353.
+Package pdftex.def Info: ./figs/webcam4.PNG used on input line 343.
 (pdftex.def)             Requested size: 158.99377pt x 174.71693pt.
 
-[11] <./figs/webcam.PNG, id=69, 528.47438pt x 745.28438pt>
+<./figs/webcam.PNG, id=66, 528.47438pt x 745.28438pt>
 File: ./figs/webcam.PNG Graphic file (type png)
-
-<use ./figs/webcam.PNG>
-Package pdftex.def Info: ./figs/webcam.PNG used on input line 367.
+ <use ./figs/webcam.PNG>
+Package pdftex.def Info: ./figs/webcam.PNG used on input line 357.
 (pdftex.def)             Requested size: 216.81pt x 305.75052pt.
- <./figs/webcam2.PNG, id=70, 962.84718pt x 749.04843pt>
+
+<./figs/webcam2.PNG, id=67, 962.84718pt x 749.04843pt>
 File: ./figs/webcam2.PNG Graphic file (type png)
 
 <use ./figs/webcam2.PNG>
-Package pdftex.def Info: ./figs/webcam2.PNG used on input line 371.
+Package pdftex.def Info: ./figs/webcam2.PNG used on input line 361.
 (pdftex.def)             Requested size: 216.81pt x 168.66577pt.
 
-<./figs/webcam3.PNG, id=71, 962.84718pt x 749.80125pt>
+<./figs/webcam3.PNG, id=68, 962.84718pt x 749.80125pt>
 File: ./figs/webcam3.PNG Graphic file (type png)
 
 <use ./figs/webcam3.PNG>
-Package pdftex.def Info: ./figs/webcam3.PNG used on input line 379.
+Package pdftex.def Info: ./figs/webcam3.PNG used on input line 369.
 (pdftex.def)             Requested size: 289.07999pt x 225.11372pt.
- [12 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/LED1.jpg> <E:/Dropbox/LaT
-aX files/EE5414 Mini Project/figs/LED2.jpg> <E:/Dropbox/LaTaX files/EE5414 Mini
- Project/figs/LED3.jpg>] [13 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/w
-ebcam4.PNG>]
-<./figs/sql1.jpg, id=80, 1181.91562pt x 619.56468pt>
+ [11] [12 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/LED1.jpg> <E:/Dropbo
+x/LaTaX files/EE5414 Mini Project/figs/LED2.jpg> <E:/Dropbox/LaTaX files/EE5414
+ Mini Project/figs/LED3.jpg>]
+<./figs/sql1.jpg, id=76, 1181.91562pt x 619.56468pt>
 File: ./figs/sql1.jpg Graphic file (type jpg)
  <use ./figs/sql1.jpg>
-Package pdftex.def Info: ./figs/sql1.jpg used on input line 413.
+Package pdftex.def Info: ./figs/sql1.jpg used on input line 403.
 (pdftex.def)             Requested size: 325.215pt x 170.47061pt.
 
-<./figs/sql2.jpg, id=81, 703.12688pt x 593.96906pt>
+<./figs/sql2.jpg, id=77, 703.12688pt x 593.96906pt>
 File: ./figs/sql2.jpg Graphic file (type jpg)
  <use ./figs/sql2.jpg>
-Package pdftex.def Info: ./figs/sql2.jpg used on input line 419.
+Package pdftex.def Info: ./figs/sql2.jpg used on input line 409.
 (pdftex.def)             Requested size: 289.07999pt x 244.19957pt.
 
-[14 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/webcam.PNG> <E:/Dropbox/La
-TaX files/EE5414 Mini Project/figs/webcam2.PNG>] [15 <E:/Dropbox/LaTaX files/EE
-5414 Mini Project/figs/webcam3.PNG> <E:/Dropbox/LaTaX files/EE5414 Mini Project
-/figs/sql1.jpg>] ("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.bbl"
+[13 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/webcam4.PNG>]
+("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.bbl" [14 <E:/Dropbox/LaTaX 
+files/EE5414 Mini Project/figs/webcam.PNG> <E:/Dropbox/LaTaX files/EE5414 Mini 
+Project/figs/webcam2.PNG>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
+ [15 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/webcam3.PNG> <E:/Dropbox/
+LaTaX files/EE5414 Mini Project/figs/sql1.jpg>]
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no ® in font ptmr7t!
-
-[16 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/sql2.jpg>]) [17]
-("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux")
-
-LaTeX Warning: There were undefined references.
-
- ) 
+)
+[16 <E:/Dropbox/LaTaX files/EE5414 Mini Project/figs/sql2.jpg>]
+("E:\Dropbox\LaTaX files\EE5414 Mini Project\report.aux") ) 
 Here is how much of TeX's memory you used:
- 5228 strings out of 493921
- 73554 string characters out of 3144859
- 241958 words of memory out of 3000000
- 8406 multiletter control sequences out of 15000+200000
+ 5229 strings out of 493921
+ 73560 string characters out of 3144859
+ 220977 words of memory out of 3000000
+ 8407 multiletter control sequences out of 15000+200000
  40746 words of font info for 96 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 32i,8n,51p,1162b,686s stack positions out of 5000i,500n,10000p,200000b,50000s
-{F:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<F:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><F:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><F:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/urw/times/utmr8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on report.pdf (18 pages, 10045086 bytes).
+ 32i,8n,51p,1160b,954s stack positions out of 5000i,500n,10000p,200000b,50000s
+{F:/Program Files (x
+86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<F:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><F:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/urw/courier/ucrr8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/u
+rw/times/utmb8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/ut
+mr8a.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (17 pages, 10044247 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
+ 118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
