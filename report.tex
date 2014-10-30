@@ -1,3 +1,4 @@
+
 %\documentclass[12pt,draft]{IEEEtran} %!PN
 \documentclass[12pt,journal,draftclsnofoot,onecolumn]{IEEEtran}
 %\documentclass[12pt]{../springer/llncs}
@@ -160,11 +161,11 @@ First, OS binaries ``ubuntu-trusty-14.04-rootfs-3.14.4.1-bone-armhf.com.tar.xz" 
 
 \begin{figure}[htb]
 	\centering
-    \subfigure[MicroSD Card]{
+    \subfigure[MicroSD Card.]{
        \includegraphics[width=2in]{./figs/microsd.JPG}
        \label{microsd}
      }
-    \subfigure[Win32DiskImager]{
+    \subfigure[Win32DiskImager.]{
        \includegraphics[width=2.5in]{./figs/win32diskimager.PNG}
        \label{win32diskimager}
      }
@@ -183,15 +184,15 @@ To begin with, we must connect the components needed into BBB: wireless network 
 
 \begin{figure}[htb]
 	\centering
-    \subfigure[Wireless Network Adapter]{
+    \subfigure[Wireless Network Adapter.]{
        \includegraphics[width=2in]{./figs/wifiadapter.JPG}
        \label{wifiadapter.JPG}
      }
-    \subfigure[Usb Hub]{
+    \subfigure[Usb Hub.]{
        \includegraphics[width=2in]{./figs/usbhub.JPG}
        \label{usbhub.JPG}
      }
-     \subfigure[MiniUSB Cable]{
+     \subfigure[MiniUSB Cable.]{
        \includegraphics[width=2in]{./figs/miniusbcable.JPG}
        \label{miniusbcable.JPG}
      }
@@ -277,7 +278,7 @@ After setting up the Web server, we could build our own main webpage by replacin
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=4in]{./figs/mainpage.jpg}
-	\caption{Project Homepage}
+	\caption{Project Homepage.}
 	\label{mainpage}
 \end{figure}
 	
@@ -296,11 +297,9 @@ echo 1 > /sys/class/leds/beaglebone:green:usr0/brightness
 \end{lstlisting}
 By calling this shell script in the $.php$ file,
 \begin{lstlisting}[language={bash}]
-<?php
-...
+<?php ...
 $cmd = `/bin/bash ../LED/ledctl.sh $status0 $status1 $status2 $status3`;
-...
-?>
+... ?>
 \end{lstlisting}
 the website based LED test can be implemented. For example, Fig.\ref{LEDTest} indicates LED\_0 and 2 are switched on, LED\_1 is switched off, and LED\_3 is blink mode.
 \begin{figure}[ht]
@@ -319,13 +318,7 @@ the website based LED test can be implemented. For example, Fig.\ref{LEDTest} in
 \end{figure}
 
 \subsection{Web Camera Configuration and Functioning}\label{Webcam}
-The camera used in this project is Logitech HD Pro Webcam C920 \cite{logicam} (See Fig. \ref{logicam})which is  capable of delivering high-definition 1080p resolution and supports H.264 encoded compression to provide high quality video at low bit rates. As previously stated in section III-B, the camera is connected to BBB via the USB hub due to the limited number of USB ports on board.
-\begin{figure}[htb]
-	\centering
-	\includegraphics[width=2.2in]{./figs/webcam4.PNG}
-	\caption{Logitech HD Pro Webcam C920}
-	\label{logicam}
-\end{figure}
+The camera used in this project is Logitech HD Pro Webcam C920 \cite{logicam} (See Fig. \ref{logicam}), which is capable of delivering high-definition 1080p resolution and supports H.264 encoded compression to provide high quality video at low bit rates. As previously stated in section III-B, the camera is connected to BBB via the USB hub due to the limited number of USB ports on board.
 
 In order to interact friendly with the web camber configuration, a webcam controller is implemented on our Apache web server. A webcamctl.php file is coded for basic functions like photographing, video capturing and face detection. The corresponding web page can be accessed by typing ``192.168.7.2/webcamctl.php" in the address bar of your web browser if BBB is connected to the host PC.  A snapshot of this $.php$ file and its web page is shown in Fig. \ref{webcam}.
 
@@ -333,15 +326,16 @@ In order to interact friendly with the web camber configuration, a webcam contro
 \begin{figure}[htb]
 	\centering
 
-    \subfigure[/var/www/php/webcamctl.php]{
-       \includegraphics[width=3in]{./figs/webcam.PNG}
-
-     }
-    \subfigure[web page for webcam controller]{
+    \subfigure[Logitech HD Pro Webcam C920.]{
+    \includegraphics[width=2.5in]{./figs/webcam4.PNG}\label{logicam}}
+%    \subfigure[/var/www/php/webcamctl.php.]{
+%       \includegraphics[width=3in]{./figs/webcam.PNG}
+%     }
+    \subfigure[Web Page for Webcam Controller.]{
        \includegraphics[width=3in]{./figs/webcam2.PNG}
 
      }
-     \caption{PHP File Configuration and Web Page}\label{webcam}
+     \caption{C920 Web Camera and Web Page.}\label{webcam}
      \end{figure}
 
 It is suggested to use OpenCV library to achieve these functionalities because this library is cross-platform, which focuses mainly on real-time image processing and is free for use under the open source BSD license.
@@ -474,8 +468,4 @@ We would like to thank our colleague Sean Yang  for his kindly help with the WiF
 
 \end{document}
 
-
-
-%\bibliographystyle{plain}
-%\bibliography{source}
 

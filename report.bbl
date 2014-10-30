@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 \begin{thebibliography}{1}
 
 \bibitem{windowsICS}
@@ -40,37 +39,3 @@ May, 2013.
 \newblock Flashing the BeagleBone Black, \url{http://www.synopsys.com}.
 
 \end{thebibliography}
-=======
-\begin{thebibliography}{1}
-
-\bibitem{Apache}
-Getting Started – USB Network Adapter on the Beaglebone,\\
-  \url{http://derekmolloy.ie/beaglebone/getting-started-usb-network-adapter-on-the-beaglebone/}.
-
-\bibitem{logicam}
-Logitech® HD Pro Webcam C920,
-  \url{http://www.logitech.com/en-hk/product/hd-pro-webcam-c920}.
-
-\bibitem{molloy_videocapture}
-Beaglebone: Video Capture and Image Processing on Embedded Linux using OpenCV,
-  \url{http://derekmolloy.ie/beaglebone/beaglebone-video-capture-and-image-processing-on-embedded-linux-using-opencv/}.
-
-\bibitem{facedetection}
-opencv and C++:detect face in image,
-  \url{http://stackoverflow.com/questions/20757147/opencv-and-cdetect-face-in-image}.
-
-\bibitem{startBB}
-June, 2014.
-\newblock BeagleBone getting started,
-  \url{http://www.beagleboard.org/getting-started}.
-
-\bibitem{molloy}
-June, 2014.
-\newblock derekmolloy.ie, \url{http://derekmolloy.ie/tag/beaglebone-black}.
-
-\bibitem{flashBB}
-May, 2013.
-\newblock Flashing the BeagleBone Black, \url{http://www.synopsys.com}.
-
-\end{thebibliography}
->>>>>>> 1becb3e17fd92f7968e5e3046eb43834a925f4f3
