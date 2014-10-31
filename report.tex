@@ -76,7 +76,7 @@
 
 \textsc{\LARGE City University of Hong Kong}\\[1.5cm]
 
-\textsc{\Large Department  of Electronics Engineering}\\[0.5cm]
+\textsc{\Large Department  of Electronic Engineering}\\[0.5cm]
 
 
 % Title
@@ -144,7 +144,7 @@ The detailed and connection information of all hardware cables and devices is pr
 	\label{hw2}
 \end{figure}
 
-Both of the figures indicate the hardware setup details. First, the BBB board is connected to a PC using the MiniUSB Cable. Via the cable, the BBB board could not only receives a 5V/500mA power supply provided by PC's USB port, but also be accessible from a host PC and share the Internet connection by setting up Windows ICS \cite{windowsICS}; In addition, users could operate Linux instructions through specific Windows-based software clients. Second, in case of unexpected system shutdown issue caused by current exceeding (current supply using MiniUSB Cable is set at a maximum of 500mA), an external power supply is used. Third, a USB Hub is connected to the onboard host USB port for expanding the port from one to four. Finally, the Logitech C920 webcam is connected to the USB Hub with its attached USB cable, together with a USB portable wireless adapter. Note that in this project, system could have two different IP addresses for Ethernet and wireless connection, respectively, also the BBB board could have an alternative way to access the Internet: getting access to a WiFi or Hotspot connection via the wireless adapter.
+Both of the figures indicate the hardware setup details. First, the BBB board is connected to a PC using the MiniUSB Cable. Via the cable, the BBB board could not only receive a 5V/500mA power supply provided by PC's USB port, but also be accessible from a host PC and share the Internet connection by setting up Windows ICS \cite{windowsICS}; In addition, users could operate Linux instructions through specific Windows-based software clients. Second, in case of unexpected system shutdown issue caused by current exceeding (current supply using MiniUSB Cable is set at a maximum of 500mA), an external power supply is used. Third, a USB Hub is connected to the onboard host USB port for expanding the port from one to four. Finally, the Logitech C920 webcam is connected to the USB Hub with its attached USB cable, together with a USB portable wireless adapter. Note that in this project, system could have two different IP addresses for Ethernet and wireless connection, respectively, also the BBB board could have an alternative way to access the Internet: getting access to a WiFi or Hotspot connection via the wireless adapter.
 
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
@@ -160,7 +160,7 @@ Both of the figures indicate the hardware setup details. First, the BBB board is
 In this project, the software implementation includes installation, configuration as well as application of embedded OS, Web server, PHP, and MySQL; setup and website-based control of onboard LEDs and the C920 Web Camera. Fig.\ref{sw1} provides a block diagram of software description.
 
 	\subsection{Operating System Installation and Configuration}\label{Sys}
-	In our implementation, we install Ubuntu Trusty 14.04 on BBB. This image uses the Ubuntu 14.04 core and thus  results  in an easy-to-install and stable Linux image that works well with the BBB boards.
+	In our implementation, we install Ubuntu Trusty 14.04 on BBB. This image uses the Ubuntu 14.04 core and thus  results  in an easy-to-install and stable Linux image that works well with the BBB board.
 
 First, OS binaries ``ubuntu-trusty-14.04-rootfs-3.14.4.1-bone-armhf.com.tar.xz" can be downloaded from \textcolor{blue}{\textit{\url{http://www.armhf.com/boards/beaglebone-black/}}}; After uncompressing this file, we can get the Ubuntu Trusty 14.04 image as shown in Fig.\ref{osimage}. Next, this image should be burn into a microSD card such that we can install Ubuntu 14.04 onto BBB. One way of doing this task is by utilising Win32DiskImager, which is a powerful tool automatically creating a OS boot disk and available at \textcolor{blue}{\textit{\url{http://sourceforge.net/projects/win32diskimager/files/latest/download}}}. In Fig.\ref{win32diskimager}, Win32DiskImager is starting to write Ubuntu.img to the microSD card, as presented by `device' F:. Please refer to the getting started page on the BeagleBone official website \cite{startBB} to find more details on the OS installation.
 
@@ -384,7 +384,7 @@ A link must be established between phpMyAdmin and Apache:
 \begin{lstlisting}[language={bash}]
 ln -s /usr/share/phpmyadmin /var/www
 \end{lstlisting}
-Finally, by tying ``http://192.168.7.2/phpmyadmin" in the browser, and login with the username and password, the MySQL databases can be accessed with a graphical interface (See Fig.\ref{sql1}). Through which we could add, delete, set and insert data into databases.
+Finally, by tying ``http://192.168.7.2/phpmyadmin" in the browser, and login with the username and password, the MySQL database can be accessed with a graphical interface (See Fig.\ref{sql1}), through which we could add, delete, set and insert data into databases.
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=4.5in]{./figs/sql1.jpg}
