@@ -1,4 +1,3 @@
-\contentsline {section}{appendix}{1}
 \contentsline {section}{\numberline {I}Introduction}{2}
 \contentsline {section}{\numberline {II}Hardware Description and Implementation}{2}
 \contentsline {section}{\numberline {III}Software Description and Implementation}{4}
